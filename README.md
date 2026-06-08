@@ -32,8 +32,8 @@ User Input
 ### 1. Clone the repository
 
 ```bash
-git clone <repo-url>
-cd bachelor-fastapi
+git clone https://github.com/robin-mommsen/thesis-prototype
+cd thesis-prototype
 ```
 
 ### 2. Configure environment variables
