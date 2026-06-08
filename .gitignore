@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+.idea/
+.vscode/
+*.db
+*.log
+.DS_Store
+
+# Microsoft Office temp files
+~$*

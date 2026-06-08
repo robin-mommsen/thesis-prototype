@@ -1,0 +1,124 @@
+{
+  "inputs": [
+    {
+      "id": "vague_01",
+      "type": "vage",
+      "text": "Ich habe verschiedene alte Haushaltsgegenstände übrig und möchte etwas Neues daraus machen"
+    },
+    {
+      "id": "vague_02",
+      "type": "vage",
+      "text": "Ich möchte etwas für den Garten bauen"
+    },
+    {
+      "id": "vague_03",
+      "type": "vage",
+      "text": "Ich habe Reste aus einer Renovierung"
+    },
+    {
+      "id": "vague_04",
+      "type": "vage",
+      "text": "Ich suche eine kreative DIY-Idee"
+    },
+    {
+      "id": "vague_05",
+      "type": "vage",
+      "text": "Ich möchte etwas Praktisches für meine Wohnung herstellen"
+    },
+    {
+      "id": "vague_06",
+      "type": "vage",
+      "text": "Ich suche ein einfaches Upcycling-Projekt ohne viele Werkzeuge"
+    },
+    {
+      "id": "vague_07",
+      "type": "vage",
+      "text": "Ich brauche eine nachhaltige Geschenkidee"
+    },
+    {
+      "id": "vague_08",
+      "type": "vage",
+      "text": "Ich möchte aus Abfall etwas Nützliches machen"
+    },
+    {
+      "id": "medium_01",
+      "type": "mittel",
+      "text": "Ich habe mehrere Holzbretter übrig"
+    },
+    {
+      "id": "medium_02",
+      "type": "mittel",
+      "text": "Ich habe alte Gläser und Holzreste"
+    },
+    {
+      "id": "medium_03",
+      "type": "mittel",
+      "text": "Ich habe Metall und Holz zum Upcyceln"
+    },
+    {
+      "id": "medium_04",
+      "type": "mittel",
+      "text": "Ich habe alte Fensterrahmen und ein paar Bretter"
+    },
+    {
+      "id": "medium_05",
+      "type": "mittel",
+      "text": "Ich habe alte CDs und DVDs und möchte etwas Dekoratives daraus machen"
+    },
+    {
+      "id": "medium_06",
+      "type": "mittel",
+      "text": "Ich habe alte Kleidung übrig"
+    },
+    {
+      "id": "medium_07",
+      "type": "mittel",
+      "text": "Ich habe Karton, Papier und ein paar Holzreste"
+    },
+    {
+      "id": "medium_08",
+      "type": "mittel",
+      "text": "Ich habe alte Holzlatten und möchte etwas für meinen Balkon bauen"
+    },
+    {
+      "id": "concrete_01",
+      "type": "konkret",
+      "text": "Ich habe zwei Europaletten und suche eine praktische Idee für mein Wohnzimmer"
+    },
+    {
+      "id": "concrete_02",
+      "type": "konkret",
+      "text": "Ich habe drei alte Metallrohre mit je 200 cm Länge und zwei Holzbretter und möchte daraus etwas für den Flur bauen"
+    },
+    {
+      "id": "concrete_03",
+      "type": "konkret",
+      "text": "Ich habe eine alte Holztür und vier Weinkisten aus Kiefernholz und suche eine Idee für mehr Stauraum"
+    },
+    {
+      "id": "concrete_04",
+      "type": "konkret",
+      "text": "Ich habe Kupferrohre und mehrere Schraubgläser und möchte daraus etwas Dekoratives mit Licht bauen"
+    },
+    {
+      "id": "concrete_05",
+      "type": "konkret",
+      "text": "Ich habe sechs Konservendosen und ein altes Holzbrett und suche eine praktische Idee für Kräuter oder kleine Pflanzen"
+    },
+    {
+      "id": "concrete_06",
+      "type": "konkret",
+      "text": "Ich habe zwei alte Jeans und Stoffreste und möchte daraus etwas Alltagstaugliches herstellen"
+    },
+    {
+      "id": "concrete_07",
+      "type": "konkret",
+      "text": "Ich habe eine alte Holzleiter und suche eine Idee für meinen Balkon"
+    },
+    {
+      "id": "concrete_08",
+      "type": "konkret",
+      "text": "Ich habe mehrere Weinflaschen und eine Lichterkette und möchte daraus etwas Dekoratives machen"
+    }
+  ]
+}

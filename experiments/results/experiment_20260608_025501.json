@@ -1,0 +1,618 @@
+{
+  "experiment_timestamp": "20260608_025501",
+  "api_url": "http://localhost:8080",
+  "runs_per_input": 1,
+  "order_randomized": true,
+  "random_seed": 42,
+  "max_attempts_per_request": 10,
+  "total_inputs": 24,
+  "valid_responses": 48,
+  "retry_count": 0,
+  "type_distribution": {
+    "vage": 8,
+    "mittel": 8,
+    "konkret": 8
+  },
+  "results": [
+    {
+      "id": "vague_01",
+      "type": "vage",
+      "input": "Ich habe verschiedene alte Haushaltsgegenstände übrig und möchte etwas Neues daraus machen",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Dekorative Aufbewahrungsstation aus alten Haushaltsmaterialien** – Kombiniere verschiedene übrig gebliebene Gegenstände zu einer praktischen und stilvollen Aufbewahrungslösung für Kleinigkeiten, Schmuck oder Bürobedarf.\n\nMaterialien:\n- Alte Metall-Dosen (z. B. Konservendosen, Keksdosen)\n- Alte T-Shirts oder Stoffreste\n- Farbe (z. B. Acrylfarbe)\n- Seidenpapier oder Zeitungspapier (falls vorhanden)\n- Holzperlen oder andere kleine Dekorationselemente (falls vorhanden)\n- Heißklebepistole oder starker Kleber\n- Schere\n\nAnleitung:\n1. **Materialien sichten und sortieren:** Lege alle vorhandenen Haushaltsgegenstände aus und entscheide, welche Dosen, Stoffe und Dekoelemente du verwenden möchtest.\n2. **Dosen reinigen und vorbereiten:** Wasche die Metall-Dosen gründlich aus und entferne Etiketten. Lass sie vollständig trocknen.\n3. **Dosen gestalten:** Bemale die Dosen nach Wunsch mit Acrylfarbe. Für ein dekoratives Muster kannst du zugeschnittene Stücke aus Seidenpapier oder Zeitungspapier mit verdünntem Kleber aufkleben und glattstreichen.\n4. **Stoffstreifen aus alten T-Shirts schneiden:** Schneide aus einem alten T-Shirt etwa 2 cm breite Streifen. Diese können als dekorative Umwicklung für einzelne Dosen dienen oder zu einer kleinen Schleife gebunden werden.\n5. **Dosen dekorieren:** Wickle die Stoffstreifen um die Dosen und befestige die Enden mit einem Heißkleber. Alternativ kannst du Holzperlen oder andere Dekoelemente aufkleben.\n6. **Aufbewahrungsstation zusammenstellen:** Stelle die fertigen Dosen in verschiedenen Größen gruppiert auf einem Tablett, Brett oder einer anderen stabilen Unterlage zusammen – so entsteht eine einheitliche, dekorative Station.\n7. **Befüllen und nutzen:** Verwende die Dosen zum Aufbewahren von Stiften, Schmuck, Küchenhelfern oder anderen Kleinigkeiten.\n\n> 💡 **Tipp:** Wenn du einen alten Holzrahmen oder ein Brett zur Hand hast, kannst du die Dosen darauf befestigen und das Ganze als Wandorganizer nutzen – das spart Platz und sieht besonders dekorativ aus!",
+          "duration_ms": 22049,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Upcycling-Regal aus alten Haushaltsgegenständen** – Erstelle ein individuelles Wandregal oder eine Deko-Komposition aus verschiedenen alten Haushaltsgegenständen wie Töpfen, Kisten, Dosen oder Ähnlichem.\n\n---\n\nMaterialien:\n- Alte Haushaltsgegenstände (z. B. Töpfe, Dosen, Holzkisten, Schüsseln, Siebe, Flaschen)\n- Schrauben, Nägel oder Wandhaken\n- Optional: Farbe oder Lack zum Auffrischen\n- Optional: Pinsel, Schleifpapier\n\n---\n\nAnleitung:\n1. **Sammeln und sortieren** – Lege alle übrigen Haushaltsgegenstände vor dir aus und überlege, welche sich gut kombinieren lassen (z. B. nach Größe, Form oder Farbe).\n2. **Funktion festlegen** – Entscheide, wofür das neue Objekt genutzt werden soll: als Wanddeko, Pflanzhalter, Aufbewahrung oder Regal.\n3. **Auffrischen** – Reinige die Gegenstände gründlich. Schleife raue Stellen ab und streiche sie bei Bedarf in einer einheitlichen oder harmonierenden Farbe an.\n4. **Anordnung planen** – Probiere verschiedene Anordnungen aus, bevor du etwas befestigst. Fotografiere die beste Variante als Referenz.\n5. **Befestigen** – Bringe die Gegenstände mit Schrauben, Nägeln oder Wandhaken an der Wand an oder stapele sie stabil auf einer Fläche.\n6. **Befüllen und genießen** – Nutze die entstandene Komposition zum Aufbewahren von Kleinigkeiten, als Pflanzenregal oder rein als dekoratives Element.\n\n---\n\n💡 **Tipp:** Wenn du mir verrätst, welche konkreten Gegenstände du hast (z. B. alte Töpfe, Holzkisten, Besteck), kann ich dir eine noch passgenauere Idee erstellen!",
+          "duration_ms": 13673,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "vague_02",
+      "type": "vage",
+      "input": "Ich möchte etwas für den Garten bauen",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Vertikaler Palettengarten als platzsparendes Kräuter- oder Blumenbeet**\n\nDa du etwas für den Garten bauen möchtest, aber keine konkreten Materialien genannt hast, empfehle ich einen vertikalen Garten aus einer alten Holzpalette – ein einfaches, wirkungsvolles Upcycling-Projekt, das wenig Platz braucht und toll aussieht!\n\nMaterialien:\n- 1 alte Holzpalette (unbehandelt und unbedenklich)\n- Unkrautvlies oder Landschaftsgewebe\n- Pflanzerde\n- Pflanzen nach Wahl (z. B. Kräuter, Blumen oder Erdbeeren)\n- Tackernadeln / Tacker\n- Hammer\n- Schere oder Cuttermesser\n\nAnleitung:\n1. **Palette prüfen und vorbereiten:** Stelle sicher, dass die Palette unbehandelt und für den Garteneinsatz geeignet ist. Entferne bei Bedarf einzelne Latten mit dem Hammer, um mehr Platz für die Pflanzentaschen zu schaffen.\n2. **Gewebe zuschneiden:** Schneide das Unkrautvlies in passende Streifen, die die Rückseite und die Seiten der Palette abdecken können.\n3. **Taschen tackern:** Befestige das Gewebe auf der Rückseite der Palette mit dem Tacker. Falte es so, dass zwischen den Palettenlatten tiefe Taschen entstehen – mindestens 10–15 cm tief, damit die Erde nicht herausfällt und die Wurzeln genug Platz haben.\n4. **Erde einfüllen:** Fülle die einzelnen Gewebetaschen großzügig mit Pflanzerde. Drücke die Erde leicht fest, damit sie gut sitzt.\n5. **Pflanzen einsetzen:** Setze deine Pflanzen durch die Öffnungen zwischen den Palettenlatten in die Erde. Kräuter wie Basilikum, Thymian oder Minze eignen sich ebenso wie Blumen oder Erdbeeren.\n6. **Aufstellen oder aufhängen:** Lehne die fertige Palette an eine Wand oder Zaunfläche, oder befestige sie hängend – achte dabei auf einen stabilen Stand bzw. eine sichere Befestigung.\n7. **Gießen:** Wässere die Pflanzen direkt nach dem Einpflanzen gründlich und halte die Erde regelmäßig feucht.\n\n> 💡 **Tipp:** Stelle die Palette zunächst liegend auf, bepflanze sie und lasse die Pflanzen einige Tage anwurzeln, bevor du sie aufrichtest – so fällt die Erde nicht heraus.",
+          "duration_ms": 15630,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Vertikaler Kräutergarten aus alten Europaletten**\n\nEin senkrecht aufgestellter Pflanzenturm aus einer Europalette – platzsparend, dekorativ und praktisch für Kräuter, Erdbeeren oder kleine Blumen.\n\nMaterialien:\n- 1 alte Europalette\n- Jute- oder Vliesgewebe (als Rückwand und Bodenschutz)\n- Erde / Pflanzsubstrat\n- Pflanzen (z. B. Kräuter, Erdbeeren, Blumen)\n- Holzschrauben oder Tacker mit Klammern\n- Schleifpapier\n- Optional: Holzfarbe oder Lasur zum Schutz\n\nAnleitung:\n1. **Palette vorbereiten:** Oberfläche mit Schleifpapier glätten, um Splitter zu entfernen. Bei Bedarf mit wetterfester Holzfarbe oder Lasur streichen und trocknen lassen.\n2. **Rückwand anbringen:** Jute- oder Vliesgewebe auf der Rückseite und den Seiten der Palette befestigen – mit einem Tacker oder Schrauben. Das Gewebe hält die Erde in den Fächern.\n3. **Palette aufstellen:** Die Palette senkrecht an einem geeigneten Platz im Garten aufstellen und gegen eine Wand oder einen Zaun lehnen – oder mit Holzpfählen im Boden sichern.\n4. **Fächer befüllen:** Die einzelnen Zwischenräume der Palette von unten nach oben mit Pflanzsubstrat befüllen und leicht andrücken.\n5. **Bepflanzen:** Kräuter, Erdbeeren oder Blumen in die Fächer einpflanzen. Kleine, kompakte Pflanzen eignen sich am besten.\n6. **Pflege:** Regelmäßig gießen – vertikale Bepflanzungen trocknen schneller aus. Bei Bedarf düngen.\n\n> 💡 **Tipp:** Stelle die Palette nach dem Bepflanzen zunächst ein paar Tage flach hin, damit die Pflanzen anwurzeln können, bevor du sie aufrichtest.",
+          "duration_ms": 13098,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "vague_03",
+      "type": "vage",
+      "input": "Ich habe Reste aus einer Renovierung",
+      "execution_order": [
+        "rag",
+        "no-rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Pflanzkasten aus Renovierungsresten**\n\nDa Renovierungen typischerweise Holzreste, Dachlatten, Sperrholzplatten oder ähnliche Materialien hinterlassen, lässt sich daraus ein stabiler und dekorativer Pflanzkasten für Balkon, Terrasse oder Garten bauen.\n\nMaterialien:\n- Holzbretter oder Dachlatten (Renovierungsreste)\n- Sperrholzrest (als Boden)\n- Schrauben\n- Klarlack oder Holzschutzfarbe (wetterfest)\n- Optional: Folie oder Teichvlies als Innenschutz\n\nAnleitung:\n1. **Materialien sichten und sortieren:** Holzreste nach Länge und Zustand prüfen und auf grobe Schäden oder Nägel untersuchen. Alte Nägel entfernen und Kanten bei Bedarf abschleifen.\n2. **Maße festlegen:** Gewünschte Größe des Pflanzkastens bestimmen (z. B. 60 × 30 × 30 cm) und die Holzteile entsprechend zuschneiden.\n3. **Seitenwände zusammenbauen:** Vier Seitenbretter zu einem rechteckigen Rahmen zusammenschrauben. Für mehr Stabilität an den Ecken jeweils kurze Holzklötze als Verstärkung einsetzen.\n4. **Boden einsetzen:** Ein passendes Stück Sperrholz als Boden zuschneiden und von unten anschrauben. Mehrere kleine Löcher (ca. 8–10 mm) in den Boden bohren, damit überschüssiges Wasser ablaufen kann.\n5. **Oberfläche schützen:** Alle Holzflächen mit wetterfestem Klarlack oder Holzschutzfarbe streichen und gut trocknen lassen. Alternativ das Innere mit Teichvlies oder Folie auskleiden, um das Holz vor Feuchtigkeit zu schützen.\n6. **Bepflanzen:** Den fertigen Kasten mit Erde befüllen und nach Wunsch bepflanzen – ideal für Kräuter, Blumen oder kleine Gemüsepflanzen.\n\n> 💡 **Tipp:** Falls unter den Renovierungsresten auch Metallteile oder Rohre vorhanden sind, lassen sich diese als einfache Standfüße oder Rankgitter ergänzen, um den Kasten aufzuwerten.",
+          "duration_ms": 14349,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Renovierungsreste-Pinnwand** – Erstelle eine rustikale, individuelle Pinnwand aus übrig gebliebenen Holzlatten, Wandfarbenresten und anderen Renovierungsmaterialien.\n\nMaterialien:\n- Holzlatten oder Holzbretter (Renovierungsreste)\n- Wandfarbenreste\n- Nägel oder Schrauben\n- Schleifpapier\n- Optional: Draht, Kordel oder Stoff aus Restbeständen\n\nAnleitung:\n1. **Holz vorbereiten** – Schleife die Holzlatten oder -bretter glatt, um Splitter und raue Kanten zu entfernen.\n2. **Grundform erstellen** – Lege die Latten nebeneinander oder in einem Muster deiner Wahl und verbinde sie auf der Rückseite mit zwei quer verlaufenden Latten, die du festschraubst oder -nagelst.\n3. **Gestalten mit Farbresten** – Streiche einzelne Latten mit verschiedenen Wandfarbenresten an, um ein buntes oder harmonisches Farbmuster zu erzeugen. Lass die Farbe vollständig trocknen.\n4. **Aufhängung anbringen** – Befestige auf der Rückseite eine Kordel, einen Draht oder eine Aufhängevorrichtung aus Restmaterial.\n5. **Funktionalität hinzufügen** – Schlage kleine Nägel in regelmäßigen Abständen in die Vorderseite, um Notizen, Fotos oder Karten daran zu befestigen. Alternativ kannst du einen Draht quer spannen und Wäscheklammern verwenden.\n6. **Aufhängen und nutzen** – Bringe die fertige Pinnwand an der gewünschten Stelle auf und dekoriere sie nach Belieben.\n\n> 💡 **Tipp:** Falls du Fliesenreste hast, lassen sich diese wunderbar als dekorative Untersetzer oder kleine Wanddekoration weiterverarbeiten!",
+          "duration_ms": 12680,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "vague_04",
+      "type": "vage",
+      "input": "Ich suche eine kreative DIY-Idee",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Dekorative Tischlampe aus einer leeren Weinflasche**\n\nVerwandle eine leere Weinflasche in eine stimmungsvolle Tischlampe – perfekt als Dekoelement für Wohnzimmer, Balkon oder als Geschenk. Durch das Glas der Flasche entsteht im Dunkeln ein warmer, funkelnder Lichteffekt.\n\nMaterialien:\n- Leere Weinflasche (gereinigt)\n- Batteriebetriebene Lichterkette (z. B. mit warmweißen LEDs)\n- Dekoratives Band oder Schleifenband\n- Heißkleber oder Sekundenkleber\n\nAnleitung:\n1. **Flasche vorbereiten:** Die leere Weinflasche gründlich reinigen und trocknen lassen, damit das Etikett und eventuelle Rückstände entfernt sind.\n2. **Band befestigen:** Ein dekoratives Band am Flaschenhals zu einer Schleife binden und mit einem Tropfen Heißkleber sichern. Optional ein weiteres Band spiralförmig um den Flaschenkörper wickeln und festkleben.\n3. **Lichterkette einführen:** Die Lichterkette vorsichtig und vollständig in die Flasche hineinschieben, bis sie gleichmäßig im Inneren verteilt ist.\n4. **Kabel verlegen:** Das verbleibende Kabel mit dem Batteriefach außen an der Flasche entlangführen und mit Heißkleber am unteren Rand unauffällig befestigen.\n5. **Lichterkette einschalten:** Das Batteriefach einschalten und die fertige Lampe aufstellen – für einen besonderen Effekt in einer flachen Schale mit etwas Wasser platzieren, um Lichtreflexionen zu erzeugen.\n\n> 💡 **Tipp:** Farbige oder gemusterte Weinflaschen erzeugen besonders interessante Lichteffekte. Mehrere Flaschen in verschiedenen Größen nebeneinander aufgestellt wirken als dekoratives Ensemble noch eindrucksvoller!",
+          "duration_ms": 12533,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Upcycling-Pinnwand aus alten Weinkorken**\n\nEine dekorative und funktionale Pinnwand, die aus gesammelten Weinkorken zusammengesetzt wird – perfekt für Notizen, Fotos oder kleine Dekorationen.\n\nMaterialien:\n- Ca. 50–100 Weinkorken (gesammelt oder von Freunden/Familie)\n- Ein alter Bilderrahmen (aus dem Keller, Flohmarkt oder Sperrmüll)\n- Heißklebepistole oder starker Kleber\n- Optional: Farbe oder Schleifpapier zur Aufbereitung des Rahmens\n\nAnleitung:\n1. **Rahmen vorbereiten:** Den alten Bilderrahmen reinigen und bei Bedarf mit Schleifpapier aufrauen oder mit Farbe neu gestalten. Das Glas kann entfernt werden.\n2. **Korken sortieren:** Die Weinkorken nach Größe und Form sortieren, damit sie später gleichmäßig angeordnet werden können.\n3. **Anordnung planen:** Die Korken zunächst ohne Kleber im Rahmen auslegen und ein ansprechendes Muster ausprobieren – z. B. alle in einer Richtung, im Fischgrätmuster oder abwechselnd quer und längs.\n4. **Korken einkleben:** Die Korken mit der Heißklebepistole Stück für Stück im Rahmen befestigen. Darauf achten, dass sie eng aneinander liegen, damit eine stabile Fläche entsteht.\n5. **Trocknen lassen:** Den Kleber vollständig aushärten lassen (ca. 15–30 Minuten).\n6. **Aufhängen:** Die fertige Pinnwand an der Wand befestigen – fertig ist das individuelle Upcycling-Deko-Stück!\n\n> 💡 **Tipp:** Mit Pinnnadeln lassen sich Fotos, Postkarten oder To-do-Listen ganz einfach befestigen. Für ein besonderes Aussehen können einzelne Korken auch bemalt werden!",
+          "duration_ms": 11816,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "vague_05",
+      "type": "vage",
+      "input": "Ich möchte etwas Praktisches für meine Wohnung herstellen",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Dekorative Wanduhr aus einem alten Kreissägeblatt mit Holzrückwand**\n\nEin ausrangiertes Kreissägeblatt wird auf einer selbst gefertigten Holzrückwand aus Palettenholz montiert und mit einem Uhrwerk versehen. Das Ergebnis ist eine markante, industriell wirkende Wanduhr, die gleichzeitig ein echter Blickfang im Wohnbereich ist.\n\n---\n\nMaterialien:\n- Altes Kreissägeblatt\n- Holzbretter (z. B. aus einer alten Palette)\n- Holzleim\n- Schrauben\n- Uhrwerk mit Zeigern (günstig im Bastel- oder Onlinehandel erhältlich)\n\n---\n\nAnleitung:\n1. **Holzbretter zuschneiden und vorbereiten:** Die Palettenbretter auf eine einheitliche Länge zuschneiden, sodass sie zusammengelegt eine quadratische oder runde Rückwand ergeben, die etwas größer als das Sägeblatt ist.\n2. **Rückwand verleimen und trocknen lassen:** Die Bretter nebeneinanderlegen, mit Holzleim verbinden und mit Schraubzwingen fixieren. Ausreichend trocknen lassen (mind. 24 Stunden).\n3. **Rückwand in Form bringen und schleifen:** Die getrocknete Holzplatte auf die gewünschte Form zuschneiden und alle Flächen sowie Kanten gründlich glatt schleifen.\n4. **Kreissägeblatt reinigen und schleifen:** Das Sägeblatt von Schmutz und Rost befreien und die Kanten vorsichtig entgraten, um Schnittgefahr zu minimieren. **Schutzhandschuhe tragen!**\n5. **Sägeblatt auf der Holzplatte ausrichten:** Das Blatt mittig und symmetrisch auf der Holzrückwand positionieren und die Lage markieren.\n6. **Mittelloch bohren:** Von der Vorderseite her ein Loch in der Mitte durch Sägeblatt und Holzplatte bohren, das zur Welle des Uhrwerks passt. Von der Vorderseite bohren, um die sichtbare Oberfläche sauber zu halten.\n7. **Vertiefung für das Uhrwerk fräsen:** Auf der Rückseite der Holzplatte eine flache Aussparung fräsen, in die das Uhrwerk bündig eingesetzt werden kann.\n8. **Sägeblatt befestigen:** Das Kreissägeblatt mit Schrauben sicher auf der Holzrückwand fixieren.\n9. **Uhrwerk einsetzen und Zeiger montieren:** Das Uhrwerk von hinten einsetzen, die Welle durch das Mittelloch führen und die Zeiger auf der Vorderseite aufstecken.\n10. **Wandaufhängung anbringen:** Auf der Rückseite eine stabile Aufhängung (z. B. eine Metallöse oder ein Holzsteg) befestigen und die Uhr an der Wand montieren.\n\n---\n\n> ⚠️ **Sicherheitshinweis:** Beim Umgang mit dem Kreissägeblatt stets Schutzhandschuhe tragen. Alle Werkzeuge wie Bohrmaschine und Säge nur mit geeigneter Schutzausrüstung verwenden.",
+          "duration_ms": 19196,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Modulares Wandregal aus alten Holzpaletten**\n\nDa keine spezifischen Materialien genannt wurden, schlage ich Holzpaletten als Ausgangsmaterial vor – sie sind häufig kostenlos erhältlich (z. B. bei Baumärkten oder Supermärkten) und lassen sich vielseitig einsetzen.\n\nMaterialien:\n- 1–2 Europaletten (kostenlos oder günstig erhältlich)\n- Schleifpapier (mittel- und feinkörnig, z. B. Körnung 80 und 120)\n- Holzlasur oder Farbe nach Wahl\n- Pinsel oder Schaumstoffrolle\n- Schrauben und Dübel zur Wandbefestigung\n- Bohrmaschine\n- Wasserwaage\n\nAnleitung:\n1. **Palette auswählen und reinigen:** Wähle eine saubere, unbeschädigte Palette. Entferne lose Nägel und grobe Verschmutzungen mit einer Bürste.\n2. **Schleifen:** Schleife alle Oberflächen zunächst mit grobem, dann mit feinem Schleifpapier glatt, damit keine Splitter entstehen.\n3. **Gestalten:** Trage Holzlasur oder Farbe in deiner Wunschfarbe auf und lass die Palette vollständig trocknen (mind. 24 Stunden).\n4. **Vorbereitung zur Wandmontage:** Halte die Palette an die gewünschte Stelle an der Wand und markiere mit einem Stift die Bohrlöcher. Nutze die Wasserwaage, um eine gerade Ausrichtung sicherzustellen.\n5. **Bohren und Dübeln:** Bohre die markierten Löcher in die Wand und setze passende Dübel ein.\n6. **Befestigen:** Schraube die Palette fest an der Wand. Achte darauf, dass sie stabil sitzt und das gewünschte Gewicht tragen kann.\n7. **Dekorieren und nutzen:** Stelle Bücher, Pflanzen, Deko-Objekte oder Körbe in die Zwischenräume der Palette – fertig ist dein individuelles Wandregal!\n\n> 💡 **Tipp:** Kleinere Palettenbretter lassen sich auch einzeln absägen und als kompakte Mini-Regale verwenden – ideal für Küche oder Bad.",
+          "duration_ms": 12902,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "vague_06",
+      "type": "vage",
+      "input": "Ich suche ein einfaches Upcycling-Projekt ohne viele Werkzeuge",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Quilling-Herzbox aus alten Papiertüten und Altpapier**\n\nEine dekorative Herzbox in der Quilling-Technik, die ganz ohne Säge, Bohrmaschine oder andere aufwändige Werkzeuge auskommt. Die Box eignet sich wunderbar als kleines Geschenk oder zur Aufbewahrung von Süßigkeiten und Schmuck.\n\nMaterialien:\n- Braune Papiertüten (z. B. alte Einkaufstüten)\n- Weißes Altpapier (z. B. benutzte Druckerpapierbögen)\n- Papier für eine Herzschablone\n- Weißleim\n\nAnleitung:\n1. **Papierstreifen vorbereiten:** Papiertüten aufschneiden und zusammen mit dem weißen Altpapier in gleichmäßige, schmale Streifen schneiden (ca. 5–7 mm breit).\n2. **Herzschablone erstellen:** Auf einem Blatt Papier ein Herz in der gewünschten Boxgröße aufzeichnen und ausschneiden. Diese Schablone dreimal verwenden, um drei identische Herzrahmen zu formen.\n3. **Herzrahmen wickeln:** Weiße Papierstreifen mit dem Quilling-Werkzeug eng aufrollen, dann entlang der Herzschablone in Form legen und mit Weißleim fixieren. Alle drei Herzrahmen so herstellen.\n4. **Abstandshalter und Boden fertigen:** Aus weiteren Papierstreifen zwei kleine, feste Rollen wickeln – diese dienen als Abstandshalter zwischen Boden und Deckel. Braune Papierstreifen zu losen Rollen und S-Spiralen formen und als Dekoration in Boden und Deckel einkleben.\n5. **Box zusammensetzen:** Einen Herzrahmen als Boden, einen als Seitenwand (mit den Abstandshaltern verbunden) und einen als Deckel zusammenkleben. Die Lücken in den Seiten mit weiteren Quilling-Elementen auffüllen und alles gut trocknen lassen.\n6. **Fertigstellen:** Den Deckel lose auflegen (nicht festkleben), sodass die Box geöffnet werden kann.\n\n> 💡 **Tipp:** Für ein gleichmäßiges Ergebnis alle Herzrahmen mit derselben Schablone fertigen. Die Box eignet sich am besten für leichte Inhalte wie Süßigkeiten oder kleine Schmuckstücke.",
+          "duration_ms": 13188,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nAlte T-Shirts zu praktischen Einkaufsbeuteln umfunktionieren – ganz ohne Nähen!\n\nMaterialien:\n- 1–2 alte T-Shirts (möglichst aus festem Stoff)\n- Eine Schere\n- Ein Lineal oder Maßband (optional)\n\nAnleitung:\n1. **Kragen entfernen:** Schneide den Kragen des T-Shirts großzügig aus – diese Öffnung wird später der Griff des Beutels.\n2. **Ärmel abschneiden:** Schneide beide Ärmel ab, sodass zwei große, runde Öffnungen entstehen. Diese dienen als Tragegriffe.\n3. **Boden vorbereiten:** Drehe das T-Shirt auf links und schneide am unteren Saum ca. 5–8 cm lange, gleichmäßige Fransen (etwa 1–2 cm breit) ein.\n4. **Boden verknoten:** Knote jeweils zwei benachbarte Fransen fest zusammen, sodass der Boden des Beutels geschlossen wird. Für extra Stabilität kannst du die Knoten doppelt machen.\n5. **Fertigstellen:** Drehe den Beutel wieder auf rechts – die Knoten verschwinden nach innen und der Beutel ist einsatzbereit.\n\n> 💡 **Tipp:** Je dicker und fester der Stoff des T-Shirts, desto stabiler wird dein Beutel. Mit bunten oder gemusterten Shirts entstehen besonders hübsche Unikate!",
+          "duration_ms": 9832,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "vague_07",
+      "type": "vage",
+      "input": "Ich brauche eine nachhaltige Geschenkidee",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nQuilling-Herzbox aus alten Papiertüten und Altpapier – eine handgefertigte, dekorative Schachtel in Herzform, die sich wunderbar als persönliches Geschenk eignet und mit kleinen Süßigkeiten oder einer liebevollen Nachricht befüllt werden kann.\n\nMaterialien:\n- Braune Papiertüten (z. B. vom Bäcker oder Supermarkt)\n- Weißes Altpapier (z. B. benutzte Druckerpapiere oder alte Briefumschläge)\n- Weißleim\n- Papier für eine Herzschablone\n\nAnleitung:\n1. **Papierstreifen vorbereiten:** Die Papiertüten aufschneiden und zusammen mit dem Altpapier in gleichmäßige, schmale Streifen schneiden (ca. 3–5 mm breit).\n2. **Herzschablone erstellen:** Aus einem Stück Papier eine Herzform ausschneiden, die als Vorlage für alle drei Herzrahmen dient.\n3. **Herzrahmen formen:** Weiße Papierstreifen mithilfe eines Quilling-Werkzeugs (oder eines Zahnstochers) eng aufrollen und entlang der Herzschablone zu drei identischen Herzrahmen formen. Mit Weißleim fixieren und trocknen lassen.\n4. **Abstandshalter bauen:** Aus weiteren weißen Papierstreifen zwei kleine, kompakte Rollen formen – diese dienen später als Säulen zwischen Boden und Deckel der Box.\n5. **Dekoration herstellen:** Aus den braunen Papierstreifen lockere Spiralen und S-förmige Quilling-Elemente rollen und mit Weißleim zu dekorativen Füllmotiven formen.\n6. **Box zusammensetzen:** Zwei Herzrahmen mit den Abstandshaltern als Boden und Mittelteil verbinden. Die braunen Quilling-Elemente in die Zwischenräume einkleben, bis die Seiten vollständig gefüllt sind.\n7. **Deckel gestalten:** Den dritten Herzrahmen als Deckel verwenden und ebenfalls mit braunen Quilling-Elementen dekorieren.\n8. **Trocknen und befüllen:** Alles vollständig trocknen lassen, anschließend die Box mit Süßigkeiten, einer kleinen Nachricht oder einem anderen leichten Inhalt befüllen und verschenken.\n\n> 💡 **Tipp:** Für ein besonders stimmiges Ergebnis alle Herzrahmen mit derselben Schablone fertigen, damit Boden, Mittelteil und Deckel exakt zusammenpassen.",
+          "duration_ms": 16174,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Upcycling-Geschenkbox aus einer alten Schuhschachtel** – Eine liebevoll gestaltete Geschenkverpackung, die selbst schon Teil des Geschenks ist!\n\nMaterialien:\n- Alte Schuhschachtel (mit Deckel)\n- Zeitungsseiten oder alte Buchseiten\n- Reste von Geschenkpapier, Stofffetzen oder alten Landkarten\n- Bindfaden, Schnur oder ein altes Band/Schleife\n- Kleber oder doppelseitiges Klebeband\n- Schere\n- Optional: Buntstifte, Stempel oder Farbreste zum Verzieren\n\nAnleitung:\n1. **Schachtel reinigen** – Die Schuhschachtel von innen und außen säubern und bei Bedarf leicht ausbessern.\n2. **Außenseite gestalten** – Klebe Zeitungsseiten, alte Buchseiten oder Stofffetzen mit Kleber auf die Außenseite der Schachtel und des Deckels. Überlappende Lagen erzeugen einen schönen Collagen-Effekt.\n3. **Innenraum auskleiden** – Die Innenseite mit weicherem Papier oder Stoff auskleiden, damit das Geschenk darin gut gebettet liegt.\n4. **Trennwände einbauen** – Aus Resten der Schachtel oder Pappe kleine Streifen schneiden und als Fächer ins Innere kleben – ideal für mehrere kleine Geschenke.\n5. **Deckel verzieren** – Mit Stempeln, Farbe oder handgeschriebenen Botschaften den Deckel personalisieren.\n6. **Verschnüren** – Die fertige Box mit Bindfaden oder einem alten Band zusammenbinden und mit einer selbst gefalteten Schleife aus Zeitungspapier krönen.\n\n> 💡 **Tipp:** Fülle die Box mit selbstgemachten Kleinigkeiten wie getrockneten Kräutern, selbst gebrannten CDs oder handgeschriebenen Gutscheinen – das macht das Geschenk noch persönlicher und nachhaltiger!",
+          "duration_ms": 12717,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "vague_08",
+      "type": "vage",
+      "input": "Ich möchte aus Abfall etwas Nützliches machen",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Selbstbewässernder Pflanztopf aus einer alten Plastikflasche**\n\nDa du keine spezifischen Materialien genannt hast, schlage ich eine einfache und sehr nützliche Upcycling-Idee vor: Aus einer leeren Plastikflasche (z. B. einer Wasseroder Softdrinke-Flasche) entsteht ein praktischer Pflanztopf, der sich selbst bewässert – perfekt für Zimmerpflanzen und ideal für alle, die manchmal vergessen zu gießen!\n\nMaterialien:\n- 1 leere Plastikflasche (z. B. 1,5-Liter-Flasche)\n- 1 Faden oder Schnur (als Docht)\n- Erde\n- 1 kleine Pflanze\n- Wasser\n- Optional: Farbe oder Pailletten zur Dekoration\n\nAnleitung:\n1. **Flasche vorbereiten:** Markiere mit einem Stift drei Bereiche auf der Flasche: einen oberen Pflanzenbereich, einen schmalen mittleren Ring und ein unteres Wasserreservoir.\n2. **Flasche zuschneiden:** Schneide die Flasche entlang der Markierungen mit einem Cuttermesser oder einer Schere durch. Dabei entstehen drei Teile.\n3. **Mittelteil anpassen:** Schneide den mittleren Ring auf und verbinde ihn mit dem unteren Teil der Flasche, um das Reservoir zu stabilisieren.\n4. **Docht einbauen:** Schlage mit einem Nagel und Hammer ein Loch in den Flaschendeckel. Ziehe den Faden hindurch, sodass er später tief ins Wasserreservoir hängt, und schraube den Deckel wieder fest.\n5. **Oberen Teil befüllen:** Drehe den oberen Flaschenteil um, setze ihn mit dem Deckel nach unten auf das Reservoir und fülle ihn mit Erde und der Pflanze.\n6. **Wasser einfüllen:** Fülle den unteren Teil mit Wasser. Der Faden verbindet Reservoir und Erde und transportiert das Wasser automatisch zur Pflanze.\n7. **Optional dekorieren:** Bemale die Flasche oder verziere sie mit Pailletten, um den Pflanztopf optisch aufzuwerten.\n\n> 💡 **Tipp:** Achte darauf, dass der Faden weit genug ins Wasserreservoir hineinragt, damit die Bewässerung zuverlässig funktioniert. Kontrolliere den Wasserstand regelmäßig und fülle ihn bei Bedarf nach.",
+          "duration_ms": 13060,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Universeller Stiftehalter und Organizer aus leeren Konservendosen**\n\nDa keine spezifischen Materialien genannt wurden, schlage ich ein klassisches und vielseitiges Upcycling-Projekt vor: Einen praktischen Schreibtisch-Organizer aus leeren Konservendosen, der Stifte, Scheren, Lineale und andere Kleinigkeiten ordentlich aufbewahrt.\n\nMaterialien:\n- 3–5 leere Konservendosen (verschiedene Größen)\n- Schleifpapier (mittelkörnig)\n- Acrylfarbe oder Sprühfarbe (nach Wunsch)\n- Heißklebepistole oder starker Kleber\n- Dekorationsmaterial (z. B. Schnur, Stoff, Washi-Tape)\n- Optional: ein Stück Holzbrett als Basis\n\nAnleitung:\n1. **Dosen vorbereiten:** Leere Konservendosen gründlich auswaschen und trocknen lassen. Scharfe Kanten am Rand vorsichtig mit Schleifpapier glätten, um Verletzungen zu vermeiden.\n2. **Gestalten:** Dosen nach Wunsch mit Acrylfarbe bemalen, mit Washi-Tape bekleben oder mit Schnur umwickeln – hier ist der Kreativität keine Grenze gesetzt.\n3. **Trocknen lassen:** Farbe oder Kleber vollständig trocknen lassen (ca. 1–2 Stunden).\n4. **Anordnen und befestigen:** Die Dosen in einer ansprechenden Anordnung auf dem Holzbrett oder direkt nebeneinander platzieren und mit der Heißklebepistole miteinander verbinden.\n5. **Fertigstellen:** Den fertigen Organizer auf dem Schreibtisch platzieren und mit Stiften, Scheren oder anderen Utensilien befüllen.\n\n> 💡 **Tipp:** Wenn du mir sagst, welche Materialien du zuhause hast, kann ich dir eine noch passgenauere Upcycling-Idee erstellen!",
+          "duration_ms": 11309,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "medium_01",
+      "type": "mittel",
+      "input": "Ich habe mehrere Holzbretter übrig",
+      "execution_order": [
+        "rag",
+        "no-rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nAus deinen übrigen Holzbrettern baust du ein einfaches, stabiles Wandregal – ideal zur Aufbewahrung von Büchern, Pflanzen oder Deko-Gegenständen.\n\nMaterialien:\n- Mehrere Holzbretter (als Regalböden)\n- Holzschrauben\n- Holzbeize oder Farbe (optional, für ein einheitliches Erscheinungsbild)\n- Wanddübel und Schrauben zur Wandbefestigung\n- Schleifpapier\n\nAnleitung:\n1. **Bretter sichten und sortieren:** Prüfe die Bretter auf Risse, Nägel oder raue Stellen. Entferne alte Nägel und sortiere die Bretter nach Größe und Zustand.\n2. **Zuschnitt:** Schneide die Bretter auf einheitliche Längen zu – je nach gewünschter Regalbreite, z. B. 60–80 cm.\n3. **Schleifen:** Schleife alle Bretter gründlich, zunächst mit grobem, dann mit feinem Schleifpapier, damit die Oberflächen glatt und splitterfrei sind.\n4. **Optionale Behandlung:** Trage bei Bedarf Holzbeize oder Farbe auf, um Farbunterschiede zwischen den Brettern zu kaschieren und ein einheitliches Aussehen zu erzielen. Lass alles vollständig trocknen.\n5. **Wandhalterungen anbringen:** Befestige für jedes Regalbrett zwei Wandhalterungen (L-Winkel oder Regalträger) mit Dübeln und Schrauben in der Wand – nutze eine Wasserwaage, damit die Halterungen gerade sitzen.\n6. **Regalböden auflegen und befestigen:** Lege die Bretter auf die Halterungen und schraube sie von unten fest, damit sie nicht verrutschen.\n7. **Kontrolle:** Überprüfe die Stabilität jedes Regalbodens, bevor du ihn belädst.",
+          "duration_ms": 14333,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nWandmontiertes Bücherregal aus alten Holzbrettern\n\nMaterialien:\n- Holzbretter (mind. 2–3 Stück)\n- Schrauben und Dübel\n- Schleifpapier (mittel- und feinkörning)\n- Bohrmaschine\n- Wasserwaage\n- Optional: Holzfarbe, Lasur oder Öl zur Oberflächenbehandlung\n\nAnleitung:\n1. **Bretter vorbereiten:** Alle Holzbretter gründlich mit mittelkörnigem Schleifpapier abschleifen, um raue Stellen und Splitter zu entfernen. Anschließend mit feinem Schleifpapier nachglätten.\n2. **Maße festlegen:** Entscheide, wie viele Regalböden du möchten und in welchem Abstand sie an der Wand montiert werden sollen. Markiere die gewünschten Positionen mit einem Bleistift.\n3. **Oberfläche behandeln:** Die Bretter nach Wunsch mit Farbe, Lasur oder Holzöl behandeln und vollständig trocknen lassen.\n4. **Löcher bohren:** Mit der Bohrmaschine die Befestigungslöcher in die Wand bohren und passende Dübel einsetzen.\n5. **Bretter montieren:** Die Holzbretter mithilfe der Wasserwaage gerade ausrichten und mit Schrauben fest an der Wand befestigen.\n6. **Fertigstellung:** Nochmals die Stabilität prüfen und das Regal nach Belieben mit Büchern, Pflanzen oder Deko bestücken.",
+          "duration_ms": 9846,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "medium_02",
+      "type": "mittel",
+      "input": "Ich habe alte Gläser und Holzreste",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nAus alten Gläsern und Holzresten entsteht eine dekorative Tischlampe: Ein Holzsockel trägt ein großes Glas, das mit kleineren Glasresten gefüllt und von innen beleuchtet wird.\n\nMaterialien:\n- Alte Gläser (ein großes als Hauptgefäß, kleinere als Füllmaterial)\n- Holzreste (z. B. Sperrholz oder Bretter für den Sockel)\n- LED-Lichtstreifen oder eine kleine LED-Lampe\n- Kabel mit Schalter und Stecker\n- Holzleim und Schrauben\n- Schleifpapier\n\nAnleitung:\n1. **Sockel bauen:** Holzreste zuschneiden und zu einem stabilen, flachen Sockel zusammenleimen oder verschrauben. Die Größe sollte zum großen Glas passen, sodass dieses sicher darauf steht.\n2. **Aussparungen vorbereiten:** Eine Öffnung oder Nut in den Sockel bohren bzw. sägen, durch die das Kabel nach innen geführt werden kann.\n3. **Glas befestigen:** Das große Glas auf dem Sockel positionieren und bei Bedarf mit dem Deckel oder etwas Holzleim fixieren, sodass es sicher steht.\n4. **Beleuchtung einsetzen:** Den LED-Lichtstreifen oder die LED-Lampe in das Innere des großen Glases legen und das Kabel durch die vorbereitete Öffnung im Sockel nach außen führen.\n5. **Glas füllen:** Die kleineren Glasreste rund um die Lichtquelle in das große Glas füllen. Verschiedene Farben und Formen erzeugen dabei unterschiedliche Lichteffekte.\n6. **Kanten glätten und Oberfläche behandeln:** Den Holzsockel mit Schleifpapier glätten und nach Wunsch lackieren oder ölen.\n7. **Elektrik abschließen:** Kabel mit Schalter und Stecker verbinden. Sicherstellen, dass alle Verbindungen gut isoliert sind, bevor die Lampe ans Stromnetz angeschlossen wird.\n8. **Fertigstellen:** Lampe aufstellen, einschalten und die Lichtwirkung durch die Glasfüllung genießen – bei Bedarf Glasstücke umschichten, um den gewünschten Effekt zu erzielen.\n\n> ⚠️ **Sicherheitshinweise:** Beim Umgang mit Glasresten Schutzhandschuhe und Schutzbrille tragen. Ausschließlich LED-Lichtquellen verwenden, da diese kaum Wärme erzeugen – in einem geschlossenen Glasgefäß ist das besonders wichtig. Die Elektrik sorgfältig isolieren.",
+          "duration_ms": 27264,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nRustikales Regal-Organizer-System aus Holzresten mit eingehängten Gläsern als Aufbewahrungsbehälter – perfekt für Küche, Bad oder Werkstatt.\n\nMaterialien:\n- Alte Gläser (z. B. Marmeladen- oder Einmachgläser)\n- Holzreste (Bretter oder Leisten)\n- Schlauchschellen oder Draht\n- Schrauben und Nägel\n- Bohrmaschine oder Hammer\n- Schleifpapier\n- Optional: Farbe oder Lasur zum Behandeln des Holzes\n\nAnleitung:\n1. **Holz vorbereiten:** Die Holzreste zuschneiden, sodass ein stabiles Brett als Grundplatte entsteht. Die Oberfläche mit Schleifpapier glätten, um Splitter zu entfernen.\n2. **Holz behandeln:** Das Brett nach Wunsch mit Farbe oder Lasur streichen und vollständig trocknen lassen.\n3. **Halterungen befestigen:** Schlauchschellen oder Drahtschlaufen gleichmäßig auf dem Brett anordnen und mit Schrauben oder Nägeln befestigen. Der Abstand sollte zum Durchmesser der Gläser passen.\n4. **Gläser einhängen:** Die Gläser in die Schellen oder Drahtschlaufen schieben und sicherstellen, dass sie fest sitzen.\n5. **Aufhängung anbringen:** Auf der Rückseite des Bretts zwei Schrauben oder eine Aufhängevorrichtung befestigen, um das Regal an der Wand zu montieren.\n6. **Befüllen und genießen:** Die Gläser nach Belieben mit Gewürzen, Pinseln, Schrauben oder anderen Kleinteilen befüllen.",
+          "duration_ms": 11007,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "medium_03",
+      "type": "mittel",
+      "input": "Ich habe Metall und Holz zum Upcyceln",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Dekorative Aufbewahrungsdose mit Holzdeckel und Holzfüßen**\n\nAus einer alten Metalldose und Holzresten entsteht eine stilvolle Aufbewahrungsdose im Vintage-Look – perfekt für Stifte, Schmuck oder Kleinigkeiten.\n\nMaterialien:\n- Alte Metalldose (z. B. Konservendose oder Keksdose)\n- Runde Holzscheibe (als Deckel, passend zum Dosendurchmesser)\n- 4 kleine Holzperlen oder Holzwürfel (als Füße)\n- 1 kleine Holzperle oder Holzknauf (als Griff für den Deckel)\n- Farbe (z. B. Acrylfarbe)\n- Heißkleber\n\nAnleitung:\n1. **Dose vorbereiten:** Metalldose gründlich reinigen und trocknen, damit Farbe und Kleber gut haften.\n2. **Dose bemalen:** Die Außenseite der Dose mit Acrylfarbe in einer Wunschfarbe streichen und vollständig trocknen lassen. Bei Bedarf eine zweite Schicht auftragen.\n3. **Deckel anfertigen:** Eine runde Holzscheibe passend zum Dosendurchmesser zuschneiden oder zurechtschleifen und ebenfalls bemalen.\n4. **Griff befestigen:** Eine Holzperle oder einen kleinen Holzknauf mittig auf den Deckel kleben – entweder mit Heißkleber oder einer Schraube von unten durch den Deckel.\n5. **Füße anbringen:** Vier Holzperlen oder kleine Holzwürfel gleichmäßig an der Unterseite der Dose mit Heißkleber befestigen, sodass die Dose stabil steht.\n6. **Füße und Deckel bemalen:** Füße und Griff in einer passenden oder kontrastierenden Farbe streichen, um ein stimmiges Gesamtbild zu erzeugen.\n7. **Trocknen lassen:** Alle Teile vollständig trocknen lassen, bevor die Dose in Gebrauch genommen wird.",
+          "duration_ms": 12459,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Industrielle Wanduhr aus Metallring und Holzscheibe**\n\nEine rustikale Wanduhr im Industrial-Stil, bei der eine Holzscheibe als Ziffernblatt dient und Metallteile als dekorative Zeiger und Rahmen genutzt werden.\n\nMaterialien:\n- Metallring oder -rahmen (z. B. alter Reifen, Rohrstück oder Blechstreifen)\n- Holzscheibe oder Holzbrett\n- Dünne Metallstäbe oder -streifen (für die Zeiger)\n- Uhrwerk-Mechanismus (günstig im Bastelgeschäft erhältlich)\n- Schrauben und Nägel\n- Schleifpapier\n- Optional: Farbe oder Holzöl zur Oberflächenbehandlung\n\nAnleitung:\n1. **Holz vorbereiten:** Die Holzscheibe oder das Brett auf die gewünschte Größe zuschneiden und mit Schleifpapier glattschleifen. Optional mit Holzöl oder Farbe behandeln und trocknen lassen.\n2. **Metallrahmen anpassen:** Den Metallring oder -rahmen so biegen oder zuschneiden, dass er als äußerer Rahmen um die Holzscheibe passt. Bei Bedarf mit einer Zange oder Säge anpassen.\n3. **Holz und Metall verbinden:** Die Holzscheibe in den Metallrahmen einsetzen und mit kleinen Schrauben oder durch Umbiegen der Metallkanten fixieren.\n4. **Zeiger fertigen:** Aus dünnen Metallstreifen Stunden- und Minutenzeiger in unterschiedlichen Längen zuschneiden und die Enden leicht anspitzen oder dekorativ formen.\n5. **Loch bohren:** In der Mitte der Holzscheibe ein Loch in der Größe der Uhrwerk-Achse bohren.\n6. **Uhrwerk einbauen:** Das Uhrwerk von hinten durch das Loch führen, die selbst gefertigten Metallzeiger auf die Achse stecken und befestigen.\n7. **Aufhängung anbringen:** Einen Metallstreifen oder -haken auf der Rückseite als Wandaufhängung mit Schrauben befestigen.\n8. **Finish:** Die Uhr an der Wand befestigen, Batterie einlegen und die Uhrzeit einstellen – fertig ist das industrielle Unikat!",
+          "duration_ms": 14091,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "medium_04",
+      "type": "mittel",
+      "input": "Ich habe alte Fensterrahmen und ein paar Bretter",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nWandregal aus altem Fensterrahmen und Brettern\n\nVerwandle einen alten Fensterrahmen in ein dekoratives Wandregal, bei dem die Bretter als Ablageböden zwischen den Sprossen oder seitlich am Rahmen befestigt werden. Das Ergebnis ist ein rustikales, charaktervolles Regal mit viel Persönlichkeit.\n\nMaterialien:\n- Alter Holzfensterrahmen\n- Holzbretter (als Regalböden)\n- Holzschrauben\n- Bildaufhänger oder Wandhalterungen\n- Schleifpapier\n- Holzbeize oder Farbe (optional)\n- Schutzbrille und Handschuhe\n\nAnleitung:\n1. **Vorbereitung des Fensterrahmens:** Glasscheiben vorsichtig entfernen (Schutzbrille und feste Schuhe tragen!), anschließend alle Beschläge abnehmen und den Rahmen gründlich schleifen, bis die Oberfläche glatt ist.\n2. **Bretter zuschneiden:** Die Holzbretter auf die passende Breite des Fensterrahmens zuschneiden, sodass sie bündig zwischen oder vor den Sprossen sitzen. Auch die Bretter anschließend schleifen.\n3. **Optionale Oberflächenbehandlung:** Rahmen und Bretter nach Wunsch mit Holzbeize oder Farbe behandeln und vollständig trocknen lassen. Eine einheitliche Farbe verleiht dem Regal ein stimmiges Erscheinungsbild.\n4. **Regalböden einpassen und befestigen:** Die Bretter an den Sprossen oder am Rahmenrand ausrichten. Pilotlöcher vorbohren, um Holzrisse zu vermeiden, und die Bretter anschließend mit Holzschrauben fest am Rahmen befestigen.\n5. **Wandmontage:** Bildaufhänger oder stabile Wandhalterungen an der Rückseite des Rahmens anbringen. Das Regal an der Wand ausrichten und sicher befestigen – idealerweise in Wanddübeln oder direkt in Wandstreben, damit das Gewicht sicher getragen wird.\n6. **Fertigstellung:** Das Regal mit Büchern, Pflanzen, Deko oder Küchenutensilien bestücken und genießen!\n\n> **Tipp:** Falls der Fensterrahmen mehrere Felder hat, können unterschiedlich hohe Regalböden eingebaut werden – das schafft ein abwechslungsreiches und individuelles Design.",
+          "duration_ms": 14606,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nVerwandle alte Fensterrahmen und Bretter in ein charmantes Gartenregal oder eine dekorative Wandkommode – perfekt für Pflanzen, Deko oder Küchenutensilien.\n\nMaterialien:\n- 1–2 alte Fensterrahmen\n- Mehrere Bretter (als Regalböden)\n- Schrauben oder Nägel\n- Schleifpapier\n- Farbe oder Lasur (optional)\n- Bohrmaschine oder Hammer\n- Winkel zur Stabilisierung (optional)\n\nAnleitung:\n1. **Vorbereitung:** Schleife die Fensterrahmen und Bretter gründlich ab, um raue Stellen und alte Farbschichten zu glätten. Entferne lose Glasscheiben oder sichere sie mit Klebeband, falls du sie behalten möchtest.\n2. **Planung:** Lege die Fensterrahmen flach aus und entscheide, wie viele Regalböden du einbauen möchtest. Markiere die gewünschten Positionen der Bretter innerhalb oder seitlich des Rahmens.\n3. **Zuschneiden:** Schneide die Bretter auf die passende Breite des Fensterrahmens zu, sodass sie sauber eingepasst werden können.\n4. **Zusammenbauen:** Befestige die Bretter mit Schrauben oder Nägeln am Fensterrahmen. Nutze bei Bedarf Winkel an den Innenseiten für zusätzliche Stabilität.\n5. **Gestalten:** Streiche oder lasiere das fertige Regal nach Wunsch – ein einheitlicher Farbton wirkt modern, ein bewusst rustikaler Look betont den Vintage-Charme.\n6. **Aufhängen oder Aufstellen:** Befestige das Regal sicher an der Wand mit geeigneten Dübeln und Schrauben, oder stelle es freistehend auf – zum Beispiel im Garten als Pflanzenregal.",
+          "duration_ms": 11120,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "medium_05",
+      "type": "mittel",
+      "input": "Ich habe alte CDs und DVDs und möchte etwas Dekoratives daraus machen",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nRaketenförmige Nachtlampe aus alten CDs und DVDs\n\nVerwandle deinen Stapel alter Datenträger in eine futuristische Raketenlampe! Die CDs und DVDs bilden den schimmernden Kern der Lampe und erzeugen durch ihre reflektierende Oberfläche faszinierende Lichteffekte – perfekt als Nachtlicht oder dekoratives Highlight.\n\nMaterialien:\n- Alte CDs und DVDs (mind. 10–15 Stück)\n- Transparente Acrylstange (als Mittelachse)\n- LED-Lichtquelle (z. B. LED-Streifen oder kleine LED-Lampe)\n- Raketenfügel: Acryl, dicker Karton oder dünnes Holz\n- Kunststoffschüssel (als Raketendüse, z. B. alte Salatschüssel)\n- Heißkleber oder Kabelbinder zur Fixierung\n- Schere oder Laubsäge\n\nAnleitung:\n1. **CDs/DVDs vorbereiten:** Sortiere die Datenträger und stapele sie gleichmäßig übereinander. Das ergibt den zylindrischen Lampenkern der Rakete.\n2. **Acrylstange einsetzen:** Führe die transparente Acrylstange durch die Mittellöcher der CDs/DVDs, sodass alle Scheiben sicher auf ihr aufgereiht sind und der Stapel stabil bleibt.\n3. **Raketenfügel zuschneiden:** Schneide aus dickem Karton, Acryl oder dünnem Holz drei bis vier gleichmäßige Dreiecke als Raketenflügel aus. Die Höhe sollte etwa einem Drittel des CD-Stapels entsprechen.\n4. **Flügel befestigen:** Klebe oder klemme die Flügel gleichmäßig verteilt am unteren Ende des CD-Stapels an – am besten mit Heißkleber oder Kabelbindern.\n5. **Raketendüse anbringen:** Befestige die umgedrehte Kunststoffschüssel als Düse am unteren Abschluss der Acrylstange. Sie gibt der Rakete ihre typische Form und sorgt für einen stabilen Stand.\n6. **LED-Lichtquelle einbauen:** Führe die LED-Lichtquelle durch die Acrylstange oder platziere sie mittig im CD-Stapel. Eine LED wird empfohlen, da sie kaum Wärme entwickelt und die CDs nicht beschädigt.\n7. **Probemontage & Feintuning:** Stelle die Lampe aufrecht hin und teste die Beleuchtung. Passe die Position der LEDs an, um die schönsten Lichtreflexe auf den CD-Oberflächen zu erzielen.\n8. **Fertigstellen:** Fixiere alle Teile abschließend sicher und schließe die Stromversorgung der LED ordentlich ab. Deine Raketenlampe ist bereit zum Leuchten!\n\n> 💡 **Tipp:** Mische CDs und DVDs mit verschiedenen Farben oder Beschriftungen für noch interessantere Lichtreflexe. Für erste Tests einfach dicken Karton für die Flügel verwenden – das spart Zeit und Material.",
+          "duration_ms": 18453,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nEinen funkelnden Mosaik-Wandspiegel aus alten CDs und DVDs erstellen – die reflektierenden Scheiben werden in Stücke gebrochen und als glitzernde Mosaikfliesen um einen Spiegel herum arrangiert.\n\nMaterialien:\n- Alte CDs und DVDs\n- Runder oder eckiger Spiegel (beliebige Größe)\n- Stabile Unterlage (z. B. Sperrholzplatte oder dicker Karton)\n- Starker Kleber (z. B. Heißkleber oder Bastelkleber)\n- Schutzhandschuhe\n- Schutzbrille\n- Aufhängevorrichtung (z. B. Bilderhaken)\n\nAnleitung:\n1. **Vorbereitung der CDs** – Ziehe Schutzhandschuhe und Schutzbrille an. Brich die CDs vorsichtig in unterschiedlich große Stücke, indem du sie mit einem Tuch abgedeckt mit einem Hammer zerschlägst. So entstehen unregelmäßige, mosaikartige Splitter.\n2. **Untergrund vorbereiten** – Befestige den Spiegel mittig auf der Sperrholzplatte oder dem Karton. Die freie Fläche rund um den Spiegel bildet die Mosaikfläche.\n3. **Stücke sortieren** – Sortiere die CD-Splitter grob nach Größe und Farbe (manche CDs schimmern bläulich, andere golden oder silbern), um ein ansprechendes Muster planen zu können.\n4. **Kleben** – Trage Heißkleber auf die Rückseite der einzelnen CD-Stücke auf und drücke sie fest auf die Unterlage rund um den Spiegel. Beginne am Rand des Spiegels und arbeite dich nach außen vor. Lasse kleine Lücken zwischen den Stücken für einen authentischen Mosaikeffekt.\n5. **Trocknen lassen** – Lasse den Kleber vollständig aushärten (mindestens 30 Minuten).\n6. **Aufhängen** – Befestige auf der Rückseite der Platte einen Bilderhaken und hänge deinen neuen Mosaik-Wandspiegel an einem gut beleuchteten Ort auf – dort kommt das Funkeln der CD-Splitter am besten zur Geltung.\n\n**Tipp:** Besonders schön wirkt das Projekt, wenn Licht direkt auf den Spiegel fällt – die CD-Stücke werfen dann bunte Lichtreflexe an die Wände!",
+          "duration_ms": 14517,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "medium_06",
+      "type": "mittel",
+      "input": "Ich habe alte Kleidung übrig",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Wiederverwendbare Stofftasche aus alten T-Shirts**\n\nAus deiner alten Kleidung – ideal sind T-Shirts – lässt sich ohne Nähen eine praktische Stofftasche herstellen. Durch einfache Schnitte und Knoten entsteht im Handumdrehen eine stabile, wiederverwendbare Tasche, die Plastiktüten ersetzt.\n\nMaterialien:\n- 1 altes T-Shirt (möglichst aus festem Stoff)\n- Schere\n- Lineal\n- Stift oder Kreide\n\nAnleitung:\n1. **T-Shirt vorbereiten:** Wähle ein geeignetes T-Shirt aus und lege es flach auf eine Unterlage.\n2. **Linie markieren:** Miss mit dem Lineal etwa 10 cm vom unteren Saum nach oben und markiere eine gerade Linie quer über das T-Shirt.\n3. **Streifen einschneiden:** Schneide vom unteren Rand bis zur markierten Linie gleichmäßige Streifen von ca. 2 cm Breite ein – sowohl auf der Vorder- als auch auf der Rückseite.\n4. **Streifen verknoten:** Verbinde jeweils einen Streifen der Vorderseite mit dem gegenüberliegenden Streifen der Rückseite mit einem festen Doppelknoten.\n5. **Tasche formen:** Drehe das T-Shirt um, sodass die Knoten nach innen zeigen – der Boden der Tasche ist nun geschlossen.\n6. **Henkel anpassen:** Die Ärmel des T-Shirts dienen als fertige Henkel. Bei Bedarf können sie etwas gekürzt werden.\n7. **Fertig!** Die Tasche ist einsatzbereit und eignet sich für leichte bis mittelgewichtige Gegenstände.\n\n> 💡 **Tipp:** Je fester du die Knoten ziehst, desto belastbarer wird die Tasche. Hast du mehrere alte T-Shirts, kannst du verschiedene Farben kombinieren oder aus Jeans eine robustere Variante mit Griffen und Futter nähen.",
+          "duration_ms": 12204,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nAus alter Kleidung einen geflochtenen Teppich oder Läufer herstellen – ein klassisches Upcycling-Projekt, das Textilabfälle in ein dekoratives und funktionales Wohnaccessoire verwandelt.\n\nMaterialien:\n- Alte Kleidungsstücke (T-Shirts, Jeans, Hemden etc.)\n- Schere\n- Nadel und Faden oder Sicherheitsnadeln (zum Verbinden der Streifen)\n- Optional: Häkelnadel oder Webrahmen\n\nAnleitung:\n1. **Kleidung vorbereiten:** Sortiere die alten Kleidungsstücke nach Materialstärke und Farbe. Schneide Nähte, Reißverschlüsse und Knöpfe ab.\n2. **Streifen schneiden:** Schneide die Kleidungsstücke in etwa 3–5 cm breite Streifen. Bei T-Shirt-Stoff kannst du die Streifen leicht dehnen, damit sie sich zu langen Schnüren rollen.\n3. **Streifen verbinden:** Knüpfe oder nähe die einzelnen Streifen zu langen, durchgehenden Bahnen zusammen, sodass möglichst keine Unterbrechungen entstehen.\n4. **Flechten:** Nimm jeweils drei Stoffbahnen und flechte sie zu einem festen Zopf. Fixiere das obere Ende z. B. mit einer Sicherheitsnadel an einem Stuhl.\n5. **Teppich formen:** Rolle den fertigen Zopf spiralförmig auf und nähe die Windungen mit Nadel und Faden fest zusammen. Arbeite dabei von innen nach außen.\n6. **Enden sichern:** Wenn der Teppich die gewünschte Größe erreicht hat, stecke das Ende des Zopfes unter die letzte Windung und nähe es sorgfältig fest.\n7. **Fertigstellung:** Schneide lose Fäden ab und lege den Teppich flach aus – fertig ist dein individuelles Upcycling-Stück!",
+          "duration_ms": 12133,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "medium_07",
+      "type": "mittel",
+      "input": "Ich habe Karton, Papier und ein paar Holzreste",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\n**Karton-Organizer mit Holzgriffen und Papier-Dekoration**\n\nEin praktischer Tisch-Organizer mit mehreren Fächern für Stifte, Scheren, Notizzettel und Co. – gefertigt aus Karton, mit Holzresten als stabile Verstärkung und dekorativ mit Papier beklebt.\n\nMaterialien:\n- Stabile Kartonplatten (z. B. aus Versandkartons)\n- Holzreste (als Verstärkung für Boden und Kanten)\n- Altpapier oder Geschenkpapier zur Dekoration\n- Gewebeklebeband oder Klebestreifen\n- Weißleim oder Mod Podge (zum Aufkleben des Dekorpapiers)\n\nAnleitung:\n1. **Maße festlegen:** Entscheide, wie groß der Organizer sein soll, und skizziere die gewünschten Fächer (z. B. ein großes Fach für Stifte, kleinere für Zettel oder Scheren).\n2. **Karton zuschneiden:** Schneide mit einem Cuttermesser und Metalllineal Boden, Seitenwände und Trennwände in den gewünschten Maßen zu.\n3. **Boden verstärken:** Klebe oder schraube flache Holzreste auf die Unterseite des Bodens, um dem Organizer mehr Stabilität und Gewicht zu geben.\n4. **Box zusammenbauen:** Verbinde Boden und Seitenwände mit Klebeband von innen und außen. Setze anschließend die Trennwände ein und fixiere sie ebenfalls mit Klebeband.\n5. **Kanten sichern:** Umwickle alle oberen Kanten und Verbindungen sauber mit Klebeband, damit die Box stabil bleibt und keine scharfen Kartonkanten abstehen.\n6. **Dekorieren:** Schneide Papier in passende Streifen oder Stücke und klebe sie mit verdünntem Weißleim auf die Außenseiten. Streiche eine weitere Schicht Leim darüber, damit das Papier glatt anliegt und versiegelt wird.\n7. **Trocknen lassen:** Den fertigen Organizer vollständig trocknen lassen, bevor er befüllt wird.",
+          "duration_ms": 13838,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nAus Karton, Papier und Holzresten ein **modulares Tisch-Organizer-System** bauen – praktische Aufbewahrungsboxen für Stifte, Zettel und Kleinkram, die sich individuell zusammenstellen lassen.\n\nMaterialien:\n- Karton (z. B. von Versandkartons oder Schuhkartons)\n- Papier (zum Bekleben und Dekorieren)\n- Holzreste (als stabile Bodenplatte oder Trennwände)\n- Schere oder Cutter\n- Lineal\n- Kleber oder Heißklebepistole\n- Optional: Farbe oder Buntstifte zum Verzieren\n\nAnleitung:\n1. **Holzreste vorbereiten:** Die Holzstücke zuschneiden oder schleifen, sodass sie als flache Bodenplatte oder stabile Seitenwände dienen können.\n2. **Kartonboxen zuschneiden:** Aus dem Karton verschieden große Rechtecke ausschneiden und zu offenen Boxen falten – Maße je nach gewünschter Fächergröße (z. B. 8 x 8 x 6 cm).\n3. **Boxen zusammenkleben:** Die Kartonseiten mit Kleber oder der Heißklebepistole fixieren und trocknen lassen.\n4. **Bodenplatte gestalten:** Die Holzreste als gemeinsame Basis zusammenlegen und die Kartonboxen darauf anordnen und festkleben.\n5. **Papier zuschneiden:** Papierstreifen oder -bögen auf Maß schneiden, um die Kartonboxen innen und außen zu bekleben – das stabilisiert den Karton zusätzlich.\n6. **Dekorieren:** Die Oberflächen nach Belieben bemalen, mit Mustern versehen oder beschriften, um den Organizer optisch ansprechend zu gestalten.\n7. **Fertigstellen:** Alles trocknen lassen, die Module nach Bedarf anordnen und befüllen.",
+          "duration_ms": 11863,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "medium_08",
+      "type": "mittel",
+      "input": "Ich habe alte Holzlatten und möchte etwas für meinen Balkon bauen",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nVertikales Kräuterbeet aus alten Holzlatten – ein platzsparendes, wandmontiertes Pflanzenregal für den Balkon, das mehrere Pflanzebenen übereinander bietet und frische Kräuter oder Blumen direkt griffbereit hält.\n\nMaterialien:\n- Alte Holzlatten (Hauptmaterial)\n- Holzschrauben\n- Klarlack oder Holzschutzlasur (wetterfest)\n- Unkrautvlies oder kleine Blumentöpfe (als Pflanzeinsätze)\n- Pflanzerde\n- Kräuter oder Balkonpflanzen nach Wahl\n- 2 stabile Wandhaken oder Montageschienen (zur Befestigung am Balkon)\n\nAnleitung:\n1. **Latten sichten und vorbereiten:** Holzlatten auf Risse oder Fäulnis prüfen, grob schleifen und auf einheitliche Längen zuschneiden – z. B. 60–80 cm für die horizontalen Regalböden und 80–100 cm für die zwei seitlichen Trägerlatten.\n2. **Rahmen zusammenbauen:** Die zwei langen Trägerlatten parallel nebeneinander legen. Die kürzeren Latten im gleichmäßigen Abstand (ca. 25–30 cm) quer darauflegen und als Regalböden mit Holzschrauben befestigen – so entsteht eine leiterartige Grundstruktur.\n3. **Pflanzfächer ergänzen:** Unter jeden Regalboden jeweils eine weitere Latte als vordere Abkantung schrauben, sodass kleine Töpfe oder mit Vlies ausgekleidete Fächer sicher aufliegen und nicht verrutschen können.\n4. **Wetterschutz auftragen:** Das gesamte Regal mit wetterfestem Klarlack oder Holzschutzlasur streichen und vollständig trocknen lassen, damit das Holz Wind und Regen auf dem Balkon standhält.\n5. **Montage am Balkon:** Das fertige Regal mit stabilen Wandhaken oder Montageschienen sicher an der Balkonwand oder am Geländer befestigen – dabei auf festen Halt und senkrechten Stand achten.\n6. **Bepflanzen:** Töpfe oder Vliesfächer mit Pflanzerde füllen und mit Kräutern (z. B. Basilikum, Schnittlauch, Minze) oder Balkonblumen bepflanzen und genießen.\n\n**Tipp:** Eine dunkle Holzlasur kaschiert unterschiedliche Farbtöne der alten Latten und gibt dem Regal ein einheitliches, modernes Aussehen.",
+          "duration_ms": 16527,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nVertikales Kräuterbeet aus alten Holzlatten – ein platzsparendes Wandregal für den Balkon, das gleichzeitig als dekorativer Sichtschutz dient und frische Kräuter liefert.\n\nMaterialien:\n- Alte Holzlatten (unterschiedliche Längen nutzbar)\n- Schrauben oder Nägel\n- Kleiner Topfbehälter oder Blumentöpfe (z. B. aus alten Konservendosen)\n- Schleifpapier\n- Holzschutzlasur oder wetterfeste Farbe\n- Bohrmaschine oder Hammer\n- Befestigungshaken oder Wandhalterungen für das Geländer\n\nAnleitung:\n1. **Holzlatten vorbereiten:** Alle Latten gründlich schleifen, um Splitter zu entfernen und die Oberfläche zu glätten.\n2. **Rahmen bauen:** Zwei längere Latten als seitliche Träger aufstellen. Kürzere Latten im gleichmäßigen Abstand (ca. 20–25 cm) horizontal dazwischen schrauben – diese bilden später die Ablageflächen für die Töpfe.\n3. **Holz schützen:** Das fertige Gestell mit wetterfester Holzschutzlasur oder Farbe streichen und vollständig trocknen lassen, damit es Wind und Regen standhält.\n4. **Töpfe befestigen:** Blumentöpfe auf den horizontalen Latten platzieren und bei Bedarf mit Draht oder Schrauben sichern, damit sie bei Wind nicht herunterfallen.\n5. **Am Balkon befestigen:** Das Regal mit Wandhalterungen an der Balkonwand oder mit Haken am Geländer befestigen – dabei auf stabilen, sicheren Halt achten.\n6. **Bepflanzen:** Kräuter wie Basilikum, Schnittlauch, Minze oder Petersilie einpflanzen und genießen!\n\n**Tipp:** Falls die Latten unterschiedlich lang sind, lassen sich durch versetztes Anordnen besonders dekorative, asymmetrische Designs gestalten.",
+          "duration_ms": 16837,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "concrete_01",
+      "type": "konkret",
+      "input": "Ich habe zwei Europaletten und suche eine praktische Idee für mein Wohnzimmer",
+      "execution_order": [
+        "rag",
+        "no-rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nAus zwei Europaletten entsteht ein rustikales Wohnzimmer-Sideboard mit integriertem Stauraum. Die Paletten werden übereinandergestapelt und bilden ein stabiles Möbelstück mit offenen Fächern für Bücher, Deko oder Körbe sowie einer ebenen Ablagefläche oben.\n\nMaterialien:\n- 2 Europaletten (sauber und als hitzebehandelt/HT gekennzeichnet)\n- Schleifpapier (grob und fein)\n- Holzbeize oder Holzfarbe nach Wahl\n- Schrauben (mind. 8 cm lang)\n- 4 Möbelrollen mit Bremse (optional, für Mobilität)\n- Holzleim\n\nAnleitung:\n1. **Paletten prüfen und vorbereiten:** Beide Paletten auf das HT-Kennzeichen prüfen, grobe Verschmutzungen entfernen und lose Nägel einschlagen oder entfernen.\n2. **Schleifen:** Alle Oberflächen, Kanten und Ecken zunächst mit grobem, dann mit feinem Schleifpapier gründlich schleifen, bis keine Splitter mehr vorhanden sind. Besonders die Oberfläche der oberen Palette sorgfältig bearbeiten.\n3. **Beizen oder lackieren:** Beide Paletten mit Holzbeize oder Farbe behandeln. Für einen Used-Look die Beize nach dem Trocknen an einzelnen Stellen leicht anschleifen.\n4. **Stapeln und verbinden:** Die erste Palette als Basis auf den Boden stellen. Die zweite Palette mittig daraufsetzen. Beide Paletten an mindestens vier Punkten mit langen Schrauben und Holzleim fest miteinander verbinden, sodass keine Bewegung entsteht.\n5. **Rollen montieren (optional):** An der Unterseite der unteren Palette vier Möbelrollen mit Bremse anschrauben. Das erleichtert das Verschieben zum Reinigen und schützt den Boden.\n6. **Fächer gestalten:** Die offenen Zwischenräume der Paletten können mit Holzkisten, Flechtkörbchen oder Aufbewahrungsboxen bestückt werden, die genau in die Fächer passen.\n7. **Aufstellen und dekorieren:** Das Sideboard an der gewünschten Stelle im Wohnzimmer positionieren, Rollen feststellen und die Ablagefläche mit Pflanzen, Büchern oder Deko-Objekten gestalten.\n\n**Hinweis:** Nur HT-gekennzeichnete Paletten verwenden – diese sind für den Innenbereich unbedenklich. MB-gekennzeichnete Paletten (chemisch behandelt) unbedingt vermeiden.",
+          "duration_ms": 15773,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nVerwandle die zwei Europaletten in ein stilvolles, rustikales Sofa-Untergestell mit integriertem Stauraum – perfekt als gemütliche Sitzlandschaft fürs Wohnzimmer.\n\nMaterialien:\n- 2 Europaletten\n- Schleifpapier (Körnung 80 und 120)\n- Holzlasur oder -farbe nach Wahl\n- Pinsel oder Schaumstoffrolle\n- 4 Möbelrollen (optional, für Mobilität)\n- Schrauben und Schraubenzieher\n- Sitzkissen oder Matratzentopper (passend zur Palettenbreite, ca. 80×120 cm)\n- Bezugsstoff oder fertige Outdoor-/Sitzkissen\n\nAnleitung:\n1. **Paletten vorbereiten:** Beide Paletten gründlich auf abstehende Nägel und Splitter prüfen. Alle rauen Stellen zunächst mit grobem Schleifpapier (Körnung 80), dann mit feinem (Körnung 120) glattschleifen.\n2. **Paletten behandeln:** Holzlasur oder Farbe gleichmäßig auftragen und vollständig trocknen lassen. Für ein robusteres Ergebnis zwei Schichten auftragen.\n3. **Paletten stapeln:** Eine Palette als Basis auf den Boden legen, die zweite Palette direkt darauf stapeln und beide fest miteinander verschrauben. So entsteht eine angenehme Sitzhöhe von ca. 30–40 cm.\n4. **Rollen befestigen (optional):** An den vier Ecken der unteren Palette Möbelrollen anschrauben, damit das Sofa leicht verschoben werden kann.\n5. **Stauraum nutzen:** Die Hohlräume der unteren Palette eignen sich hervorragend zum Aufbewahren von Zeitschriften, Decken oder Fernbedienungen – einfach Körbe oder Kisten hineinschieben.\n6. **Kissen aufbringen:** Einen Schaumstofftopper oder fertige Sitzkissen auf die obere Palette legen. Für ein einheitliches Bild können mehrere kleinere Kissen nebeneinander arrangiert oder ein maßgeschneiderter Bezug genäht werden.\n7. **Dekorieren:** Mit Rückenkissen an der Wand oder einem Teppich davor wird die Sitzecke besonders gemütlich und wohnlich abgerundet.",
+          "duration_ms": 14270,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "concrete_02",
+      "type": "konkret",
+      "input": "Ich habe drei alte Metallrohre mit je 200 cm Länge und zwei Holzbretter und möchte daraus etwas für den Flur bauen",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nSchlankes Flur-Garderobensystem aus Metallrohren und Holzbrettern – ein wandmontiertes Regal mit integrierter Kleiderstange und Ablageflächen für Jacken, Taschen und Schuhe.\n\nMaterialien:\n- 3 Metallrohre (je 200 cm Länge)\n- 2 Holzbretter\n- Schrauben und Wanddübel zur Wandmontage\n- Rohrschellen oder Rohrhalter (zur Befestigung der Rohre)\n- Schleifpapier\n- Farbe oder Öl (optional, zur Oberflächenbehandlung)\n\nAnleitung:\n1. **Planung und Zuschnitt:** Entscheide, wie das System aufgebaut sein soll. Empfehlung: Ein Rohr (ca. 100–120 cm) wird horizontal als Kleiderstange genutzt, zwei Rohre werden als vertikale Wandstützen verwendet, an denen die Holzbretter als Regalböden befestigt werden. Die Rohre entsprechend zuschneiden oder kürzen, falls nötig.\n2. **Vorbereitung der Materialien:** Metallrohre mit Schleifpapier von Rost und rauen Stellen befreien. Holzbretter schleifen, bis die Oberfläche glatt ist, und nach Wunsch mit Farbe, Beize oder Öl behandeln. Gut trocknen lassen.\n3. **Vertikale Rohre an der Wand montieren:** Die zwei vertikalen Rohre im gewünschten Abstand (passend zur Bretterbreite) mit Rohrschellen an der Wand befestigen. Dabei mit einer Wasserwaage sicherstellen, dass beide Rohre exakt senkrecht und auf gleicher Höhe sitzen. Dübel und Schrauben verwenden, die das Gesamtgewicht sicher tragen.\n4. **Regalböden einsetzen:** Die Holzbretter in der gewünschten Höhe an den vertikalen Rohren befestigen – entweder durch Rohrschellen, die das Brett von unten stützen, oder durch vorgebohrte Löcher im Brett, durch die die Rohre geführt werden. Ein Brett kann als obere Ablage (z. B. für Mützen und Körbe), das andere als untere Ablage (z. B. für Schuhe) dienen.\n5. **Horizontales Rohr als Kleiderstange montieren:** Das dritte Rohr horizontal zwischen den beiden vertikalen Rohren oder direkt an der Wand (mit zwei Rohrschellen) in einer geeigneten Höhe (ca. 150–160 cm) als Kleiderstange befestigen. Hier können Jacken und Taschen auf Bügeln aufgehängt werden.\n6. **Abschlusskontrolle:** Alle Verbindungen und Wandbefestigungen auf festen Sitz prüfen. Scharfe Kanten an den Rohrenden mit Schleifpapier entschärfen oder mit Endkappen abdecken. Das fertige Garderobensystem aufstellen und nach Bedarf mit Haken ergänzen.",
+          "duration_ms": 18233,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nIndustrielle Flurgarderobe mit Hutablage – eine robuste, stylische Wandgarderobe im Industrial-Look, bei der die Metallrohre als Kleiderstange und dekorative Elemente dienen und die Holzbretter als Ablageböden genutzt werden.\n\nMaterialien:\n- 3 Metallrohre (je 200 cm)\n- 2 Holzbretter\n- Rohrschellen/Rohrhalterungen (passend zum Rohrdurchmesser)\n- Schrauben und Dübel\n- Bohrmaschine\n- Säge\n- Schleifpapier\n- Holzöl oder Holzfarbe (optional)\n- Wasserwaage\n\nAnleitung:\n1. **Planung und Zuschnitt:** Entscheide, welche Längen du benötigst. Säge eines der Metallrohre auf ca. 100–120 cm für die horizontale Kleiderstange zu. Die beiden übrigen Rohre werden auf je ca. 30–40 cm gekürzt und dienen als seitliche Wandhalterungen bzw. Stützen für die Ablageböden.\n2. **Holzbretter vorbereiten:** Schleife die Holzbretter glatt und behandle sie nach Wunsch mit Holzöl oder Farbe. Lass sie vollständig trocknen.\n3. **Wandmontage der Stützrohre:** Befestige die beiden kurzen Rohre mithilfe von Rohrschellen horizontal an der Flurwand – eines auf ca. 180 cm Höhe (für die Kleiderstange) und eines auf ca. 100 cm Höhe (für den unteren Ablageboden). Nutze die Wasserwaage für eine gerade Ausrichtung und setze die Dübel entsprechend.\n4. **Kleiderstange einsetzen:** Lege das lange Metallrohr in die oberen Rohrschellen ein und befestige es sicher. Es dient als Kleiderstange für Jacken und Mäntel.\n5. **Ablageböden montieren:** Lege die Holzbretter jeweils auf die unteren Rohrhalterungen auf und schraube sie von unten oder seitlich fest. Das obere Brett eignet sich als Hutablage, das untere Brett als Ablage für Taschen oder Schuhe.\n6. **Abschluss und Kontrolle:** Überprüfe alle Verbindungen auf Stabilität, ziehe Schrauben nach und hänge zur Probe einige Kleidungsstücke auf, um die Belastbarkeit zu testen.",
+          "duration_ms": 14141,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "concrete_03",
+      "type": "konkret",
+      "input": "Ich habe eine alte Holztür und vier Weinkisten aus Kiefernholz und suche eine Idee für mehr Stauraum",
+      "execution_order": [
+        "rag",
+        "no-rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nAus einer alten Holztür als Tischplatte und vier Weinkisten als Unterbau entsteht ein rustikaler Schreibtisch oder Sideboard mit integriertem Stauraum. Die Weinkisten dienen gleichzeitig als Beine und als offene Regalfächer für Bücher, Zeitschriften oder Dekoration.\n\nMaterialien:\n- Alte Holztür (als Tischplatte/Ablagefläche)\n- 4 Weinkisten aus Kiefernholz (als Unterbau und Stauraum)\n- Holzschrauben\n- Schleifpapier (verschiedene Körnungen)\n- Holzbeize oder Farbe nach Wahl\n- Klarlack oder Polyurethan-Lack\n- Holzleim\n\nAnleitung:\n1. **Vorbereitung der Materialien:** Tür und Weinkisten gründlich schleifen, um alte Lackschichten, Splitter und raue Stellen zu entfernen. Mit grober Körnung beginnen, zum Schluss fein schleifen.\n2. **Unterbau zusammenstellen:** Je zwei Weinkisten übereinander stapeln und als linke und rechte Stützsäule ausrichten. Die Öffnungen der Kisten nach vorne oder zur Seite ausrichten, damit die Fächer als Stauraum zugänglich bleiben.\n3. **Kisten fixieren:** Die jeweils übereinanderstehenden Kisten mit Holzleim und Holzschrauben fest miteinander verbinden. Darauf achten, dass beide Säulen exakt gleich hoch und gerade sind – ggf. mit einer Wasserwaage prüfen.\n4. **Tür als Platte aufsetzen:** Die Holztür mittig auf die beiden Kistensäulen legen. Den Überstand gleichmäßig auf beiden Seiten verteilen. Die Tür von unten durch die Kisten hindurch mit langen Holzschrauben sichern, sodass sie nicht verrutschen kann.\n5. **Oberflächen behandeln:** Alle Teile nach Wunsch mit Holzbeize in einem einheitlichen Farbton behandeln, um Unterschiede zwischen Tür und Kiefernholz zu kaschieren. Nach dem Trocknen zwei Schichten Klarlack auftragen, um die Oberfläche zu versiegeln und widerstandsfähig zu machen.\n6. **Stauraum organisieren:** Die offenen Kistenfächer können mit kleinen Körben, Boxen oder direkt mit Büchern, Ordnern und Dekogegenständen befüllt werden. Optional lassen sich an den Außenseiten der Kisten noch kleine Haken für Taschen oder Kabel anschrauben.",
+          "duration_ms": 15766,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nVerwandle die alte Holztür in einen rustikalen Wandschrank, indem du die vier Weinkisten als offene Regalfächer direkt an der Tür befestigst. Die Tür dient dabei als Rückwand und Träger – das Ergebnis ist ein charaktervolles Wandregal mit reichlich Stauraum für Bücher, Pflanzen, Deko oder Küchenutensilien.\n\nMaterialien:\n- 1 alte Holztür (als Rückwand/Träger)\n- 4 Weinkisten aus Kiefernholz (als Regalfächer)\n- Schleifpapier (mittel- und feinkörnig)\n- Holzschrauben (ca. 3–4 cm)\n- Bohrmaschine mit Holzbohrer\n- Wasserwaage\n- Bleistift zum Markieren\n- Optional: Holzlasur, Farbe oder Wachs zur Oberflächenbehandlung\n- Wandbefestigungen (Schwerlastdübel und Schrauben)\n\nAnleitung:\n1. **Vorbereitung der Tür:** Schleife die Holztür gründlich ab, um alte Lackschichten, raue Stellen und Unebenheiten zu entfernen. Beginne mit grobem, dann mit feinem Schleifpapier.\n2. **Vorbereitung der Weinkisten:** Schleife auch die Weinkisten ab und entferne eventuelle Splitter. Behandle alle Teile bei Bedarf mit Lasur, Farbe oder Wachs und lass sie vollständig trocknen.\n3. **Anordnung planen:** Lege die Tür flach auf den Boden und arrangiere die vier Weinkisten in deiner Wunschposition darauf – z. B. zwei nebeneinander oben und zwei unten, oder alle vier versetzt für ein dynamischeres Bild. Markiere die Positionen mit einem Bleistift.\n4. **Kisten an der Tür befestigen:** Bohre von der Rückseite der Tür durch das Holz in die Böden der Weinkisten und verschraube sie fest. Verwende pro Kiste mindestens vier Schrauben für stabilen Halt.\n5. **Wandmontage vorbereiten:** Bestimme an der Wand die gewünschte Position des Regals. Markiere die Bohrlöcher, setze Schwerlastdübel ein – das Gesamtgewicht aus Tür und Kisten erfordert eine solide Befestigung.\n6. **Regal aufhängen:** Hänge die Tür mit geeigneten Wandhalterungen oder Winkeln an der Wand auf. Nutze die Wasserwaage, um eine gerade Ausrichtung sicherzustellen.\n7. **Fertigstellung:** Überprüfe alle Schraubenverbindungen auf festen Sitz und befülle das Regal nach Belieben mit deinen Gegenständen.\n\n**Tipp:** Wenn die Tür noch funktionierende Scharniere hat, kannst du eine der Weinkisten mit einer kleinen Holzklappe versehen und so ein geschlossenes Staufach integrieren.",
+          "duration_ms": 19784,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "concrete_04",
+      "type": "konkret",
+      "input": "Ich habe Kupferrohre und mehrere Schraubgläser und möchte daraus etwas Dekoratives mit Licht bauen",
+      "execution_order": [
+        "rag",
+        "no-rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nHängende Kupferrohr-Pendelleuchte mit beleuchteten Schraubgläsern – aus Kupferrohren wird ein geometrisches Gestell gebaut, an dem mehrere Schraubgläser als beleuchtete Lampenschirme hängen. Eine Lichterkette im Inneren der Gläser sorgt für warmes, stimmungsvolles Licht.\n\nMaterialien:\n- Kupferrohre (verschiedene Längen)\n- Mehrere Schraubgläser mit Deckeln\n- Batteriebetriebene LED-Lichterketten (eine pro Glas)\n- Kupfer-Verbindungsstücke / T-Stücke (zum Verbinden der Rohre)\n- Draht oder Schnur zum Aufhängen der Gläser\n- Heißkleber oder Epoxidharz\n- Optional: Dekorative Bänder oder Garn zur Verzierung\n\nAnleitung:\n1. **Gestell planen und zuschneiden:** Entscheide, wie viele Gläser hängen sollen und skizziere eine einfache Rahmenform (z. B. ein Rechteck oder ein Dreieck). Schneide die Kupferrohre mit einer Metallsäge oder einem Rohrschneider auf die gewünschten Längen zu.\n2. **Gestell zusammensetzen:** Verbinde die Kupferrohre mithilfe von Kupfer-Verbindungsstücken oder biege die Rohre an den Ecken leicht, um die gewünschte Form zu erhalten. Fixiere die Verbindungen bei Bedarf mit Epoxidharz, damit das Gestell stabil bleibt.\n3. **Deckel vorbereiten:** Bohre oder steche mit einem Nagel kleine Löcher in die Schraubgläserdeckel, durch die später das Kabel der Lichterkette nach außen geführt werden kann.\n4. **Lichterketten einsetzen:** Führe die Lichterkette durch das Loch im Deckel, fülle die Lichterkette locker in das Schraubglas und schraube den Deckel fest. Das Kabel mit dem Batteriefach bleibt außen.\n5. **Gläser am Gestell befestigen:** Befestige die Gläser mit Draht oder stabiler Schnur am Kupfergestell. Wickle den Draht mehrfach um den Glashals oder den Deckel und hänge ihn sicher am Gestell ein. Achte auf gleichmäßige Abstände für ein harmonisches Bild.\n6. **Gestell aufhängen:** Befestige das fertige Gestell mit Draht oder Schnur an einem Haken an der Decke oder einem Balken. Alternativ kann das Gestell auch auf einer Kommode oder einem Regal aufgestellt werden, wenn du es mit kleinen Füßen aus Kupferrohrstücken versiehst.\n7. **Lichterketten einschalten und genießen:** Schalte alle Lichterketten ein und passe bei Bedarf die Position der Gläser noch leicht an, um den gewünschten Lichteffekt zu erzielen.\n\n**Hinweise:**\n- Verwende ausschließlich batteriebetriebene Lichterketten, da diese sicher und einfach zu handhaben sind.\n- Durch unterschiedlich große Schraubgläser oder farbige Gläser lässt sich der Lichteffekt variieren.\n- Transparente Gläser erzeugen den stärksten Leuchteffekt; mattierte oder farbige Gläser wirken stimmungsvoller und diffuser.",
+          "duration_ms": 19217,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nIndustrielle Hängeleuchte aus Kupferrohren und Schraubgläsern – eine stilvolle Pendelleuchte im Industrial-Look, bei der die Schraubgläser als Lampenschirme an einem Kupferrohr-Gestell hängen und warmes Licht verbreiten.\n\nMaterialien:\n- Kupferrohre (verschiedene Längen)\n- Schraubgläser (mehrere Stück)\n- LED-Lichterkette oder einzelne Fassungen mit Kabel (E27 oder E14)\n- Kupfer-T-Stücke und Winkelverbinder (passend zu den Rohren)\n- Bohrmaschine mit Metallbohrer\n- Rohrschneider oder Metallsäge\n- Draht oder Kabelbinder zum Fixieren\n- Schleifpapier\n- Deckenhaken zur Befestigung\n\nAnleitung:\n1. **Planung & Zuschnitt:** Entscheide, wie viele Gläser hängen sollen und skizziere den Aufbau. Schneide die Kupferrohre mit dem Rohrschneider auf die gewünschten Längen zu – ein längeres Stück als horizontale Traverse, kürzere Stücke als vertikale Abhängungen.\n2. **Gestell zusammensetzen:** Verbinde die Rohre mithilfe der T-Stücke und Winkelverbinder zu einem stabilen Rahmen. Die horizontale Traverse bildet die Basis, von der die Gläser herabhängen werden.\n3. **Gläser vorbereiten:** Bohre mit dem Metallbohrer ein Loch in den Deckel jedes Schraubglases – groß genug, um das Lampenkabel oder die Lichterkette durchzuführen. Entgrate die Kanten anschließend mit Schleifpapier.\n4. **Beleuchtung einsetzen:** Führe das Kabel der Lampenfassung oder einen Strang der LED-Lichterkette durch das Loch im Deckel. Schraube den Deckel fest und setze das Glas auf – so wird der Deckel zur Aufhängung und das Glas zum Lampenschirm.\n5. **Gläser am Gestell befestigen:** Hänge die vorbereiteten Gläser mit Draht oder Kabelbindern an den vertikalen Rohrstücken der Traverse auf. Variiere die Höhen für einen dynamischen, verspielten Look.\n6. **Kabel bündeln:** Führe alle Kabel entlang der Kupferrohre und fixiere sie unauffällig mit kleinen Kabelbindern oder Kupferdraht. Das gibt dem Ganzen einen sauberen, bewusst industriellen Stil.\n7. **Aufhängen & anschließen:** Befestige einen Deckenhaken und hänge das fertige Gestell auf. Lass die Elektroinstallation (Netzanschluss) im Zweifelsfall von einer Fachkraft prüfen oder verwende eine batteriebetriebene LED-Lichterkette für eine sichere, unkomplizierte Lösung.\n8. **Finish:** Poliere die Kupferrohre optional mit einem Tuch, um den warmen Kupferglanz zu betonen – fertig ist deine individuelle Upcycling-Leuchte!",
+          "duration_ms": 21321,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "concrete_05",
+      "type": "konkret",
+      "input": "Ich habe sechs Konservendosen und ein altes Holzbrett und suche eine praktische Idee für Kräuter oder kleine Pflanzen",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nWandmontiertes Kräuterregal aus einem Holzbrett mit sechs eingehängten oder befestigten Konservendosen als Pflanzgefäße – praktisch, platzsparend und dekorativ für Küche oder Balkon.\n\nMaterialien:\n- 6 Konservendosen\n- 1 altes Holzbrett\n- Garn, Jute oder Seil (zum Umwickeln der Dosen, optional für Optik)\n- Schrauben und Muttern mit Unterlegscheiben (zur Befestigung der Dosen am Brett)\n- Wandschrauben und Dübel (zur Wandmontage)\n- Klebeband (als Hilfsmittel beim Wickeln)\n- Erde und Kräuterpflanzen oder Samen\n\nAnleitung:\n1. **Dosen vorbereiten:** Alle Konservendosen gründlich reinigen und Etiketten entfernen. In den Boden jeder Dose mittig ein Loch bohren – dieses dient später als Wasserablauf und verhindert Staunässe.\n2. **Scharfe Kanten glätten:** Die Bohrlöcher und den oberen Dosenrand mit einer Feile oder einem Hammer und Schleifpapier entgraten, um Verletzungen zu vermeiden.\n3. **Dosen dekorieren (optional):** Die Dosen mit Jute, Garn oder Seil umwickeln, um ihnen ein natürliches Aussehen zu geben. Den Garnanfang mit Klebeband fixieren, dann das Garn dicht und gleichmäßig von unten nach oben wickeln. Das Ende unter die letzte Wicklung schieben und festziehen.\n4. **Holzbrett vorbereiten:** Das Brett bei Bedarf abschleifen und reinigen. Die gewünschten Positionen der sechs Dosen auf dem Brett markieren – entweder in einer Reihe oder in zwei Reihen à drei Dosen, je nach Brettgröße.\n5. **Dosen am Brett befestigen:** Jede Dose an der markierten Stelle mit einer Schraube durch das bereits gebohrte Bodenloch von hinten durch das Brett schrauben. Mit Unterlegscheibe und Mutter auf der Vorderseite (im Doseninneren) fest sichern, sodass die Dosen stabil und waagerecht am Brett anliegen.\n6. **Brett an der Wand montieren:** Das fertige Brett mit geeigneten Wandschrauben und Dübeln an der gewünschten Stelle befestigen – idealerweise in der Nähe eines Fensters für ausreichend Licht.\n7. **Bepflanzen:** Die Dosen mit Pflanzerde füllen und Kräuter wie Basilikum, Schnittlauch, Petersilie oder Minze einpflanzen. Darauf achten, dass das Ablaufloch im Boden nicht durch zu viel Erde verstopft wird – eine kleine Schicht Kieselsteine am Boden hilft dabei.",
+          "duration_ms": 16349,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nWandmontiertes Kräuterregal aus Konservendosen und Holzbrett – ein rustikales, platzsparendes Pflanzdisplay für Küche oder Balkon.\n\nMaterialien:\n- 6 Konservendosen (gesäubert, Etiketten entfernt)\n- 1 altes Holzbrett\n- 12 Schrauben mit Muttern oder starke Schellen/Rohrschellen (passend zum Dosendurchmesser)\n- Bohrmaschine oder Hammer und Nagel\n- Schleifpapier\n- Erde und Kräuterpflanzen oder Samen\n- Optional: Farbe oder Lack für Holz und Dosen\n\nAnleitung:\n1. **Holzbrett vorbereiten:** Brett mit Schleifpapier glätten und bei Bedarf mit Farbe oder Holzlack behandeln. Trocknen lassen.\n2. **Dosen vorbereiten:** Alle Dosen gründlich reinigen und trocknen. Mit Schleifpapier scharfe Kanten am Rand glätten. Optional die Dosen bemalen oder mit Kreidefarbe beschriften (z. B. „Basilikum\", „Minze\").\n3. **Abfluss schaffen:** Mit einem Nagel oder Bohrer 3–5 kleine Löcher in den Boden jeder Dose schlagen, damit überschüssiges Wasser ablaufen kann.\n4. **Dosen am Brett befestigen:** Die Dosen gleichmäßig auf dem Brett verteilen – z. B. zwei Reihen à drei Dosen. Mit Rohrschellen oder Schrauben und Muttern fest am Brett fixieren, sodass die Dosen waagerecht liegen und die Öffnung nach vorne zeigt.\n5. **Brett aufhängen:** Zwei Haken oder Schrauben an der Wand befestigen und das Brett daran aufhängen. Alternativ kann das Brett auch aufrecht auf einer Fensterbank stehen.\n6. **Bepflanzen:** Etwas Erde in jede Dose füllen und Kräuter einpflanzen oder Samen aussäen. Gut geeignet sind Basilikum, Petersilie, Schnittlauch, Thymian, Minze oder Kresse.\n7. **Pflegen:** Regelmäßig gießen – da die Dosen klein sind, trocknen sie schneller aus. Einen kleinen Untersetzer oder ein Tablett unter das Brett legen, um ablaufendes Wasser aufzufangen.",
+          "duration_ms": 14045,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "concrete_06",
+      "type": "konkret",
+      "input": "Ich habe zwei alte Jeans und Stoffreste und möchte daraus etwas Alltagstaugliches herstellen",
+      "execution_order": [
+        "no-rag",
+        "rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nRobuste Jeans-Handtasche mit Stoffblumen-Dekoration aus alten Jeans und Stoffresten\n\nAus zwei alten Jeans wird eine gefütterte, alltagstaugliche Handtasche genäht. Die Stoffreste dienen als Futterstoff und können zusätzlich für dekorative Blumen-Applikationen genutzt werden. Der Jeansbund bildet den oberen Abschluss der Tasche, die Griffe entstehen aus den Saumstücken der Hosenbeine.\n\nMaterialien:\n- 2 alte Jeans\n- Stoffreste (als Futterstoff und für Dekoration)\n- Nähgarn\n- 4 Sätze Muttern und Schrauben (zur Griffbefestigung)\n- Optional: aufbügelbare Vlieseline (für mehr Stabilität des Futters)\n\nAnleitung:\n1. **Jeans vorbereiten:** Hosenbeine auf die gewünschte Taschengröße zuschneiden, seitlich mit einem Nahttrenner öffnen und flach bügeln. Dabei vorhandene Jeansnähte möglichst erhalten, um den typischen Used-Look beizubehalten.\n2. **Außentasche nähen:** Die zugeschnittenen Jeansteile zusammennähen. Die unteren Ecken schräg absteppen, um einen flachen Taschenboden zu formen.\n3. **Futter zuschneiden und nähen:** Aus den Stoffresten passende Innenteile zuschneiden – bei Bedarf vorher Vlieseline aufbügeln, um das Futter zu stabilisieren. Auch hier die Ecken absteppen, damit Futter und Außentasche dieselbe Form haben.\n4. **Jeansbund als Abschluss annähen:** Den abgetrennten Bund einer der Jeans als oberen Abschluss der Tasche annähen. Das gibt der Tasche einen authentischen Denim-Look und sorgt für Stabilität.\n5. **Griffe herstellen:** Aus den Saumstücken der Hosenbeine zwei gleichlange Streifen zuschneiden, längs falten, nähen und wenden. Die Griffe mit Muttern und Schrauben sicher an der Tasche befestigen.\n6. **Futter einsetzen:** Futter und Außentasche mit den Rückseiten zusammenführen, oben bündig ausrichten und am Bund festnähen.\n7. **Stoffblumen fertigen:** Aus den verbleibenden Jeans- und Stoffresten mehrlagige Blütenformen ausschneiden, aufeinanderlegen und in der Mitte feststepppen. Die Blumen kurz auswaschen und trocknen lassen – sie fransen dabei bewusst aus und erhalten so ihre dekorative Form.\n8. **Blumen befestigen:** Die fertigen Stoffblumen nach Belieben auf der Tasche verteilen und fest annähen.",
+          "duration_ms": 18497,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nRobuste Einkaufstasche mit Patchwork-Design aus alten Jeans und bunten Stoffresten\n\nMaterialien:\n- 2 alte Jeans\n- Stoffreste (verschiedene Farben/Muster)\n- Nähnadel und Faden (oder Nähmaschine)\n- Schere\n- Lineal und Schneiderkreide\n- Stecknadeln\n\nAnleitung:\n\n1. **Jeans vorbereiten:** Schneide die Jeans auseinander und trenne die Nähte auf, sodass du möglichst große, flache Stoffstücke erhältst. Die Hosenbeine eignen sich besonders gut als Hauptmaterial für die Tasche.\n\n2. **Zuschneiden:** Schneide zwei gleich große Rechtecke aus dem Jeansstoff zu (z. B. 40 x 45 cm) – diese bilden Vorder- und Rückseite der Tasche.\n\n3. **Patchwork-Elemente erstellen:** Schneide die Stoffreste in gleichmäßige Streifen oder Quadrate und nähe sie zu einem dekorativen Patchwork-Panel zusammen. Dieses kann als Taschenvorderseite oder als Verstärkungsstreifen dienen.\n\n4. **Tasche zusammennähen:** Lege Vorder- und Rückseite mit der rechten Seite nach innen aufeinander und nähe drei Seiten zusammen. Die Seitennaht der Jeans kann dabei als fertige Kante genutzt werden.\n\n5. **Boden verstärken:** Nähe aus einem doppellagigen Stück Jeansstoff einen verstärkten Boden ein, damit die Tasche schwere Einkäufe tragen kann.\n\n6. **Henkel herstellen:** Schneide zwei lange, schmale Streifen (ca. 5 x 60 cm) aus dem restlichen Jeansstoff, falte sie dreifach und nähe sie fest zusammen. Die Henkel an den Innenseiten der Tasche doppelt annähen für extra Stabilität.\n\n7. **Tasche wenden und fertigstellen:** Wende die Tasche auf die rechte Seite, bügle die Nähte glatt und nähe den oberen Rand sauber um.",
+          "duration_ms": 13271,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "concrete_07",
+      "type": "konkret",
+      "input": "Ich habe eine alte Holzleiter und suche eine Idee für meinen Balkon",
+      "execution_order": [
+        "rag",
+        "no-rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nVerwandle deine alte Holzleiter in ein dekoratives Balkon-Pflanzenregal! Die Sprossen der Leiter dienen als natürliche Ablageflächen für Pflanzentöpfe – platzsparend, charmant und perfekt für den Balkon.\n\nMaterialien:\n- Alte Holzleiter\n- Farbe oder Holzschutzlasur (wetterfest)\n- Malerkrepp\n- Schleifpapier\n- Pflanzentöpfe (passend zur Sprossenbreite)\n- Kabelbinder oder Juteschnur (zum Sichern der Töpfe)\n- Optional: Holzbretter als zusätzliche Ablageböden\n- Optional: Schraubbolzen mit Muttern und Unterlegscheiben (zur Bretbefestigung)\n\nAnleitung:\n1. **Leiter vorbereiten:** Leiter gründlich reinigen und mit Schleifpapier abschleifen, um raue Stellen und alte Lackschichten zu entfernen.\n2. **Lackieren:** Metallteile mit Malerkrepp abkleben, dann die Leiter mit wetterfester Farbe oder Holzschutzlasur streichen. Mindestens zwei Schichten auftragen und vollständig trocknen lassen.\n3. **Standfestigkeit prüfen:** Leiter auf dem Balkon aufstellen und sicherstellen, dass sie stabil steht. Bei Bedarf an der Wand oder am Balkongeländer befestigen.\n4. **Optional – Regalböden ergänzen:** Passend zugeschnittene Holzbretter auf ausgewählten Sprossen auflegen und mit Schraubbolzen sichern, um größere oder schwerere Töpfe sicher abzustellen.\n5. **Töpfe platzieren:** Kleinere Töpfe direkt auf die Sprossen stellen. Zur Sicherheit – besonders bei Wind – die Töpfe mit Kabelbindern oder Juteschnur an den Sprossen befestigen.\n6. **Bepflanzen und dekorieren:** Kräuter, Blumen oder kleine Zierpflanzen einpflanzen und die Leiter nach Belieben mit Lichterketten oder anderen Dekorationselementen verschönern.\n\n> **Tipp:** Achte darauf, dass die Leiter auf dem Balkon wirklich sicher steht und bei starkem Wind nicht umfallen kann – bei Bedarf mit einem Haken an der Wand sichern.",
+          "duration_ms": 13859,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nVerwandle deine alte Holzleiter in ein vertikales Balkon-Regal – perfekt als Pflanzentreppe, Kräutergarten oder dekoratives Ablagesystem für den Außenbereich.\n\nMaterialien:\n- Alte Holzleiter\n- Schleifpapier (mittel- und feinkörnig)\n- Wetterschutzfarbe oder Holzöl/-lasur (für Außenbereich)\n- Pinsel\n- Blumentöpfe oder Holzkisten (passend zur Sprossenbreite)\n- Kabelbinder oder Juteschnur (zum Befestigen der Töpfe)\n- Optional: Haken oder S-Haken für zusätzliche Hängemöglichkeiten\n\nAnleitung:\n1. **Leiter vorbereiten:** Schleife die gesamte Oberfläche der Leiter gründlich ab, um raue Stellen, alte Farbreste oder Splitter zu entfernen. Beginne mit mittelkörnigem, dann feinkörnigem Schleifpapier.\n2. **Holz schützen:** Trage Wetterschutzfarbe, Holzöl oder eine Lasur auf, um die Leiter vor Feuchtigkeit und UV-Strahlung zu schützen. Lass sie vollständig trocknen (mind. 24 Stunden).\n3. **Standort wählen:** Stelle die Leiter an einem geeigneten Platz auf dem Balkon auf. Lehne sie an die Wand oder sichere sie mit einem Seil oder Haken, damit sie stabil steht und nicht umfallen kann.\n4. **Töpfe platzieren:** Stelle Blumentöpfe direkt auf die Sprossen oder befestige sie mit Juteschnur oder Kabelbindern daran. Variiere die Topfgrößen für ein abwechslungsreiches Bild.\n5. **Bepflanzen:** Fülle die Töpfe mit Kräutern (z. B. Basilikum, Minze, Thymian), Blumen oder kleinen Gemüsepflanzen – je nach Sonnenlage des Balkons.\n6. **Extras hinzufügen:** Hänge optional S-Haken an die Sprossen für Gießkannen, Lichterketten oder kleine Körbe, um den Stauraum kreativ zu erweitern.",
+          "duration_ms": 13011,
+          "attempt": 1
+        }
+      ]
+    },
+    {
+      "id": "concrete_08",
+      "type": "konkret",
+      "input": "Ich habe mehrere Weinflaschen und eine Lichterkette und möchte daraus etwas Dekoratives machen",
+      "execution_order": [
+        "rag",
+        "no-rag"
+      ],
+      "rag_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nStimmungsvolle Weinflaschen-Lichtinstallation – mehrere leere Weinflaschen werden jeweils mit Abschnitten einer Lichterkette befüllt und als dekorative Gruppe auf einem Tablett oder Fensterbrett arrangiert. Das Licht scheint durch das Glas und erzeugt ein warmes, stimmungsvolles Ambiente.\n\nMaterialien:\n- Mehrere leere Weinflaschen (gereinigt und trockengetrocknet)\n- Eine Lichterkette (batteriebetrieben oder für Dekozwecke geeignet)\n- Dekorative Bänder oder Schnur (optional, zur Verzierung)\n- Heißkleber oder Klebeband (zur Kabelbefestigung)\n- Ein Tablett, Holzbrett oder eine flache Schale als Unterlage (optional)\n\nAnleitung:\n1. **Flaschen vorbereiten:** Weinflaschen gründlich reinigen und vollständig trocknen lassen, damit die Lichterkette nicht durch Feuchtigkeit beschädigt wird.\n2. **Lichterkette aufteilen:** Überlege, wie viele Flaschen du befüllen möchtest, und plane die Lichterkette entsprechend ein. Bei einer langen Kette kannst du sie so in die Flaschen verteilen, dass jede Flasche einen eigenen leuchtenden Bereich erhält – das Kabel verbindet die Flaschen dabei von außen.\n3. **Lichterkette einführen:** Führe die Lichterkette vorsichtig und locker in die erste Flasche ein, indem du die LEDs Schlaufe für Schlaufe hineingleiten lässt. Lass das Verbindungskabel zur nächsten Flasche außen herauslaufen.\n4. **Kabel befestigen:** Das außen verlaufende Kabel zwischen den Flaschen mit Heißkleber oder Klebeband unauffällig an den Flaschen entlangführen und fixieren, damit es ordentlich liegt und nicht verrutscht.\n5. **Flaschen dekorieren (optional):** Binde ein dekoratives Band oder eine Schnur um den Flaschenhals jeder Flasche, um den Look zu verfeinern und die Flaschen individuell zu gestalten.\n6. **Arrangement aufbauen:** Stelle die befüllten Flaschen als Gruppe auf einem Tablett oder Fensterbrett zusammen. Variiere die Abstände und Anordnung für einen natürlichen, dekorativen Effekt. Eine flache Schale mit etwas Wasser unter den Flaschen verstärkt die Lichtreflexionen zusätzlich.\n7. **Lichterkette einschalten:** Schalte die Lichterkette ein und genieße das stimmungsvolle Lichtspiel, das durch das Glas der Weinflaschen scheint.\n\n> **Hinweis:** Verwende ausschließlich batteriebetriebene oder ausdrücklich für Dekorationszwecke vorgesehene Lichterketten, da diese sicher für den Einsatz in geschlossenen Behältern geeignet sind. Achte darauf, dass die Flaschen stabil stehen, damit sie nicht umkippen.",
+          "duration_ms": 17097,
+          "attempt": 1
+        }
+      ],
+      "baseline_runs": [
+        {
+          "success": true,
+          "response": "Idee:\nVerwandle deine Weinflaschen in eine stimmungsvolle Flaschen-Lichterkette, bei der die Lichterkette durch die Flaschen gefädelt wird und diese von innen zum Leuchten bringt – perfekt als Tischdekoration oder Fensterschmuck.\n\nMaterialien:\n- Mehrere Weinflaschen (geleert und gereinigt)\n- Lichterkette (idealerweise mit kleinen LED-Lichtern)\n- Optional: Schleifpapier (für raue Kanten)\n- Optional: Farbe, Bänder oder Naturmaterialien zur zusätzlichen Dekoration\n\nAnleitung:\n1. **Flaschen vorbereiten:** Weinflaschen gründlich reinigen und Etiketten entfernen. Etiketten lassen sich mit warmem Wasser und etwas Öl gut ablösen. Anschließend die Flaschen vollständig trocknen lassen.\n2. **Lichterkette aufteilen:** Überlege, wie viele Lichter du pro Flasche verwenden möchtest. Bei einer Lichterkette mit z. B. 30 LEDs und 3 Flaschen kommen etwa 10 LEDs pro Flasche zusammen.\n3. **Lichter einfädeln:** Führe die Lichterkette vorsichtig durch den Flaschenhals ins Innere. Schiebe die gewünschte Anzahl an Lichtern hinein und lasse das Kabel nach außen hängen, um es zur nächsten Flasche weiterzuführen.\n4. **Flaschen anordnen:** Stelle die Flaschen nebeneinander auf einem Fensterbrett, Regal oder Tisch auf. Achte darauf, dass das Kabel zwischen den Flaschen ordentlich verläuft und nicht zu stark gespannt ist.\n5. **Optional dekorieren:** Binde Bänder, Schnur oder Zweige um den Flaschenhals, um den Look zu personalisieren. Alternativ kannst du die Flaschen vorher mit Farbe bemalen oder mit Sand/Kieselsteinen befüllen, um einen interessanten Effekt zu erzielen.\n6. **Lichterkette anschließen:** Stecke die Lichterkette ein und genieße die warme, stimmungsvolle Beleuchtung durch das Glas der Weinflaschen.\n\n**Tipp:** Grüne oder blaue Weinflaschen erzeugen besonders schöne Farbeffekte, wenn das Licht durch das Glas scheint!",
+          "duration_ms": 13079,
+          "attempt": 1
+        }
+      ]
+    }
+  ]
+}

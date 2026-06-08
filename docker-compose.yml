@@ -1,0 +1,105 @@
+services:
+
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: upcycling-rag-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  ollama:
+    image: ollama/ollama
+    container_name: upcycling-rag-ollama
+    ports:
+      - "127.0.0.1:11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    command: serve
+    environment:
+      OLLAMA_HOST: http://0.0.0.0:11434
+
+  ollama-init:
+    image: curlimages/curl:8.7.1
+    depends_on:
+      - ollama
+    entrypoint:
+      - "/bin/sh"
+      - "-c"
+      - |
+        echo "Waiting for Ollama.."
+        until curl -sf http://ollama:11434/api/tags >/dev/null 2>&1; do
+          sleep 2
+        done
+        echo "Pulling nomic-embed-text-v2-moe.."
+        curl -X POST http://ollama:11434/api/pull \
+          -H "Content-Type: application/json" \
+          -d '{"name":"nomic-embed-text-v2-moe:latest"}'
+        echo "Model pull complete"
+
+  backend:
+    build: .
+    container_name: upcycling-rag-backend
+    ports:
+      - "127.0.0.1:8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      ollama:
+        condition: service_started
+      ollama-init:
+        condition: service_completed_successfully
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      OLLAMA_URL: http://ollama:11434
+      CLAUDE_API_KEY: ${CLAUDE_API_KEY}
+      CLAUDE_MODEL: ${CLAUDE_MODEL:-claude-sonnet-4-6}
+      RAG_FACTSHEET_LIMIT: ${RAG_FACTSHEET_LIMIT}
+
+  mongodb:
+    image: mongo:7
+    container_name: upcycling-rag-mongodb
+    restart: always
+    volumes:
+      - mongodb_data:/data/db
+
+  librechat:
+    image: ghcr.io/danny-avila/librechat:latest
+    container_name: upcycling-rag-librechat
+    restart: always
+    ports:
+      - "127.0.0.1:3080:3080"
+    depends_on:
+      - mongodb
+      - backend
+    environment:
+      HOST: "0.0.0.0"
+      PORT: "3080"
+      MONGO_URI: "mongodb://mongodb:27017/LibreChat"
+      JWT_SECRET: ${LIBRECHAT_JWT_SECRET}
+      JWT_REFRESH_SECRET: ${LIBRECHAT_JWT_REFRESH_SECRET}
+      CREDS_KEY: ${LIBRECHAT_CREDS_KEY}
+      CREDS_IV: ${LIBRECHAT_CREDS_IV}
+      ENDPOINTS: "custom"
+      ALLOW_EMAIL_LOGIN: "true"
+      ALLOW_REGISTRATION: "true"
+      ALLOW_SOCIAL_LOGIN: "false"
+      ALLOW_SOCIAL_REGISTRATION: "false"
+    volumes:
+      - ./librechat.yaml:/app/librechat.yaml:ro
+      - librechat_images:/app/client/public/images
+
+volumes:
+  ollama:
+  mongodb_data:
+  librechat_images:
